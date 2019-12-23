@@ -1,0 +1,41 @@
+Kursinio darbo metodiniai nurodymai
+http://www.mif.vu.lt/katedros/se/Studentams/KURSINIO%20DARBO%20METODINIAI%20NURODYMAI%202011_AL.pdf
+
+@online{VulSkApieMusLt,
+    title={Apie mus},
+    organization={Vilniaus universiteto ligoninës Santaros klinikos},
+    url={http://santa.lt/index.php?option=com_content&view=article&id=49&Itemid=139},
+    year={2019},
+    langid={lietuviø},
+}
+
+@misc{AukðAudInstLt,
+    author={Rûta Obcarskienë and Jolanta Aðmegienë and Ona Butënaitë and Rasa
+Cickevièiûtë-Rutkauskienë and Jovita Juzonienë and Ramunë Marcikonytë and Ieva Noruðaitienë and Graþina
+Voitkevièienë and Vytenis Þukas},
+    title={Asmens sveikatos prieþiûros paslaugø prieinamumas ir orientacija á pacientà},
+    organization={Aukðèiausioji audito institucija},
+    url={https://www.vkontrole.lt/failas.aspx?id=3894},
+    year={2018},
+    pages={32},
+} 
+
+https://www.alexa.com/siteinfo/santa.lt
+
+https://www.similarweb.com/website/santa.lt
+
+Internet Health Information Seeking and the Patient-Physician Relationship: A Systematic Review
+https://www.jmir.org/2017/1/e9/
+
+https://www.markbrinker.com/good-bad-medical-website-design
+
+https://www.jmir.org/2009/1/e11/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4434065/
+
+European Commission. European citizen's digital health literacy. Brussels: European Commission; 2014.
+http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_404_en.pdf
+
+https://www.statista.com/statistics/274774/forecast-of-mobile-phone-users-worldwide/
