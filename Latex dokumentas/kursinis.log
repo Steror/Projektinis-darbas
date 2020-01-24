@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  19 JAN 2020 19:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  19 JAN 2020 19:33
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1186,82 +1186,6 @@ Package biblatex Info: Reference segment=0 on input line 39.
 
 ] [4
 
-] [5
-
-] [6
-
-]
-File: img/BlogaPaieška.png Graphic file (type bmp)
-<img/BlogaPaieška.png>
-File: img/TuščiaPaieška.png Graphic file (type bmp)
-<img/TuščiaPaieška.png>
- [7]
-File: img/ProtingaPaieška.png Graphic file (type bmp)
-<img/ProtingaPaieška.png>
- [8]
-Underfull \vbox (badness 10000) detected at line 202
- []
-
-[9]
-File: img/SiauraNavigacija.png Graphic file (type bmp)
-<img/SiauraNavigacija.png>
-
-Overfull \hbox (1.10963pt too wide) in paragraph at lines 234--234
-[]\TU/texgyretermes(0)/m/n/12 DS| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]\TU/texgyretermes(0)/m/n/12 1) Sistemos būsenos
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 236--236
-[]\TU/texgyretermes(0)/m/n/12 2) Atitikimas realiam
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 240--240
-[]\TU/texgyretermes(0)/m/n/12 6) Atpažinimas geriau
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 244--244
-[]\TU/texgyretermes(0)/m/n/12 10) Parama ir doku-
- []
-
-
-Overfull \hbox (7.5472pt too wide) in paragraph at lines 232--246
- [] 
- []
-
-[10]
-File: img/RegistracijaPagrindinis.png Graphic file (type bmp)
-<img/RegistracijaPagrindinis.png>
- [11]
-File: img/RegistracijosAklavietė.png Graphic file (type bmp)
-<img/RegistracijosAklavietė.png>
-File: img/AtvaizdavimoKlaida.png Graphic file (type bmp)
-<img/AtvaizdavimoKlaida.png>
- [12] [13]
-File: img/PaieškosPrototipas.png Graphic file (type bmp)
-<img/PaieškosPrototipas.png>
-
-Overfull \hbox (6.32387pt too wide) in paragraph at lines 296--297
- [][] 
- []
-
-File: img/NavigacijosPrototipas.png Graphic file (type bmp)
-<img/NavigacijosPrototipas.png>
-
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 306--307
- [][] 
- []
-
-[14
-
-] [15] [16
-
 ]
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1309,7 +1233,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-334.
+117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1317,26 +1241,34 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-334.
+117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[17
+[5
 
 ] (kursinis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                kursinis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25809 strings out of 427748
- 506392 string characters out of 3146822
- 1011916 words of memory out of 3000000
- 29579 multiletter control sequences out of 15000+200000
- 545296 words of font info for 94 fonts, out of 3000000 for 9000
+ 25745 strings out of 427748
+ 504880 string characters out of 3146822
+ 1003845 words of memory out of 3000000
+ 29531 multiletter control sequences out of 15000+200000
+ 545288 words of font info for 93 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1531b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1113b,7669s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (17 pages).
+Output written on kursinis.pdf (5 pages).

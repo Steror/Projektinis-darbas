@@ -1998,19 +1998,8 @@
     <bcf:citekey order="1">InternetUseByPublicSAEn</bcf:citekey>
     <bcf:citekey order="2">InternetUseByPublicHKEn</bcf:citekey>
     <bcf:citekey order="3">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="4">EuCitizDigHealthEn</bcf:citekey>
-    <bcf:citekey order="5">EmergingmHealthEn</bcf:citekey>
-    <bcf:citekey order="6">AlexaSantaEn</bcf:citekey>
-    <bcf:citekey order="7">VulSkKaipMusRastiLt</bcf:citekey>
-    <bcf:citekey order="8">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="9">NielsenUsabilityEn</bcf:citekey>
-    <bcf:citekey order="10">SearchGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="11">NavigationAndIAGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="12">NielsenHeuristicsEn</bcf:citekey>
-    <bcf:citekey order="13">WebBehaviorsEn</bcf:citekey>
-    <bcf:citekey order="14">RWDEn</bcf:citekey>
-    <bcf:citekey order="15">EmergingmHealthEn</bcf:citekey>
-    <bcf:citekey order="16">InternetUseByPublicHKEn</bcf:citekey>
+    <bcf:citekey order="4">EmergingmHealthEn</bcf:citekey>
+    <bcf:citekey order="5">InternetUseByPublicHKEn</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
