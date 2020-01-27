@@ -55,10 +55,9 @@
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti vartotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
+	\item Identifikuoti technologijas reikalingas puslapio kūrimui
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
-	\item Atlikti puslapio panaudojamumo analizę pagal išskirtus kriterijus
-	\item Sukurti galutinio sprendimo maketą
+	\item Sukurti galutinio sprendimo prototipą
 	%\item Paruošti sprendimo variantus
 	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	%\renewcommand{\labelenumii}{\theenumii}
@@ -72,8 +71,14 @@ Uždaviniai:
 	%\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
+\section{Sistemos architektūros modelis}
+Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia naudotojų poreikiai, įgyvendinimo sudėtingumas, populiarūs sprendimai.
 
+Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, pavyzdžiui duomenų bazę. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti.
 
+Kadangi tinklapiui nėra griežtų ir specifinių reikalavimų, MVC modelis tinka sistemos kūrimui\cite{MVCSO1, MVCSO2}. Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau MVC modelis nesukelia tam problemų.
+
+\section{Sistemą realizuojančios technologijos}
 
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,

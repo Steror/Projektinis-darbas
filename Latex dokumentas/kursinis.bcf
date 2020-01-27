@@ -1995,11 +1995,9 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografija.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">InternetUseByPublicSAEn</bcf:citekey>
-    <bcf:citekey order="2">InternetUseByPublicHKEn</bcf:citekey>
-    <bcf:citekey order="3">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="4">EmergingmHealthEn</bcf:citekey>
-    <bcf:citekey order="5">InternetUseByPublicHKEn</bcf:citekey>
+    <bcf:citekey order="1">MVCDefinition</bcf:citekey>
+    <bcf:citekey order="2">MVCSO1</bcf:citekey>
+    <bcf:citekey order="2">MVCSO2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
