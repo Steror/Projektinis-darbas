@@ -48,16 +48,16 @@
     \endentry
     \entry{MVCSO1}{online}{}
       \name{author}{1}{}{%
-        {{hash=f25cb1c6953bb0c62c639f3d7a242ec4}{%
-           family={{Stack Exchange}},
+        {{hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={{Stack Overflow}},
            familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \strng{fullhash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \strng{bibnamehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \strng{authorbibnamehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \strng{authornamehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \strng{authorfullhash}{f25cb1c6953bb0c62c639f3d7a242ec4}
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
       \field{extraname}{1}
       \field{labelalpha}{Sta09}
       \field{sortinit}{S}
@@ -74,6 +74,34 @@
       \verb https://stackoverflow.com/questions/1531907/when-not-to-use-mvc-in-a-web-application
       \endverb
     \endentry
+    \entry{MVCSO3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={{Stack Overflow}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \field{extraname}{2}
+      \field{labelalpha}{Sta13}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{anglų}
+      \field{title}{Using a database to store and get html pages for website}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/19767510/using-a-database-to-store-and-get-html-pages-for-website
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/19767510/using-a-database-to-store-and-get-html-pages-for-website
+      \endverb
+    \endentry
     \entry{MVCSO2}{online}{}
       \name{author}{1}{}{%
         {{hash=f25cb1c6953bb0c62c639f3d7a242ec4}{%
@@ -86,7 +114,6 @@
       \strng{authorbibnamehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
       \strng{authornamehash}{f25cb1c6953bb0c62c639f3d7a242ec4}
       \strng{authorfullhash}{f25cb1c6953bb0c62c639f3d7a242ec4}
-      \field{extraname}{2}
       \field{labelalpha}{Sta15}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}

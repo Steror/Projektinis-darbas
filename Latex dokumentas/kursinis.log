@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  27 JAN 2020 21:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  29 JAN 2020 01:06
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1197,7 +1197,7 @@ ktūros modelių yra Modelis-Vaizdas-
 
 ]
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 114
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 123
 .
 
 
@@ -1205,7 +1205,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 114
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 123
 .
 
 
@@ -1213,7 +1213,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 114
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 123
 .
 
 
@@ -1221,7 +1221,15 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 114--114
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 123
+.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 123--123
 []\TU/texgyretermes(0)/m/n/12 Stack Exchange. Where we should not use mvc? 2015
 . \TU/texgyretermes(0)/m/sc/12 url\TU/texgyretermes(0)/m/n/12 : $[][][][][] [] 
 [] []
@@ -1235,12 +1243,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25708 strings out of 427748
- 503360 string characters out of 3146822
- 998018 words of memory out of 3000000
- 29495 multiletter control sequences out of 15000+200000
- 545280 words of font info for 92 fonts, out of 3000000 for 9000
+ 25712 strings out of 427748
+ 503538 string characters out of 3146822
+ 999060 words of memory out of 3000000
+ 29498 multiletter control sequences out of 15000+200000
+ 545288 words of font info for 93 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,979b,6122s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1151b,6120s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on kursinis.pdf (7 pages).

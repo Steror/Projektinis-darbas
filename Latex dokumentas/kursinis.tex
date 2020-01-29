@@ -55,8 +55,8 @@
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti technologijas reikalingas puslapio kūrimui
-	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
+	\item Pasirinkti sistemos architektūros modelį
+	\item Palyginti ir pasirinkti technologijas reikalingas puslapio kūrimui
 	\item Sukurti galutinio sprendimo prototipą
 	%\item Paruošti sprendimo variantus
 	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
@@ -72,14 +72,23 @@ Uždaviniai:
 \end{enumerate}
 
 \section{Sistemos architektūros modelis}
-Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia naudotojų poreikiai, įgyvendinimo sudėtingumas, populiarūs sprendimai.
+Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
 
-Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, pavyzdžiui duomenų bazę. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti.
+Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
 
-Kadangi tinklapiui nėra griežtų ir specifinių reikalavimų, MVC modelis tinka sistemos kūrimui\cite{MVCSO1, MVCSO2}. Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau MVC modelis nesukelia tam problemų.
+Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau tai universalus poreikis ir ši architektūra tam netrukdo. Kadangi kuriamas tinklapis neturi išskirtinių bruožų, dėl kurių reikėtų galvoti naujus sprendimus, galima naudoti MVC modelį\cite{MVCSO1, MVCSO2}. Galiausiai, autorius jau turi patirties su šiuo modeliu, taigi nereikės mokytis šio modelio pagrindų.
 
 \section{Sistemą realizuojančios technologijos}
+Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos bus naudojamos kiekvienam sluoksniui. Šiuo atveju sluoksnių elementai būtų duomenų bazė ir jos valdymas (Model), puslapiai (View) ir komunikuojantis kodas (Controller).
 
+\subsection{Technologijos duomenų bazės valdymui}
+
+
+MongoDB
+\subsection{Technologijos puslapių kūrimui}
+Angular.js, React, Ruby on Rails
+\subsection{Technologijos komunikuojančio kodo vykdymui}
+.NET, Java, Ruby
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo

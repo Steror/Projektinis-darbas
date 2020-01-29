@@ -8,6 +8,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Sistemą realizuojančios technologijos}{5}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.}Technologijos duomenų bazės valdymui}{5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.}Technologijos puslapių kūrimui}{5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.}Technologijos komunikuojančio kodo vykdymui}{5}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{Rezultatai ir išvados}{6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Šaltiniai}{7}% 
