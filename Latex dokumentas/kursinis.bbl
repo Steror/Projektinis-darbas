@@ -19,6 +19,111 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{InternetUseByPublicHKEn}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a99a666c7e3c1ae4701af1cd318cfe03}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Joanna\bibnamedelima TW},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9426dd29bd8d8e427fe0d46bd1715261}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Man\bibnamedelima Ping},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=155b0480c5b073b5f81b86faca2ad1ed}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d99117a7a8bbfa5d7a4cfb03d04ee00a}{%
+           family={Viswanath},
+           familyi={V\bibinitperiod},
+           given={Kasisomayajula},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4b346b9a7842697db73adab7cf1b5aeb}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Tai\bibnamedelima Hing},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fe5aba054916322042623baa47a1595d}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Sophia\bibnamedelimb Siu\bibnamedelima Chee},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=cc4d5cd3f7f5f49d26cc5f9fa08f2702}{%
+           family={Eysenbach},
+           familyi={E\bibinitperiod},
+           given={Gunther},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JMIR Publications}%
+      }
+      \strng{namehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{fullhash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{bibnamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authorbibnamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authornamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authorfullhash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{editorbibnamehash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
+      \strng{editornamehash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
+      \strng{editorfullhash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
+      \field{labelalpha}{CWS\textsuperscript {+}17}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Interactive journal of medical research}
+      \field{langid}{english}
+      \field{title}{How, When and Why People Seek Health Information Online: Qualitative Study in Hong Kong}
+      \field{volume}{6}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
+      \endverb
+    \endentry
+    \entry{InternetUseByPublicSAEn}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2e53dcfbbb1a5aba4608942ddf292c6d}{%
+           family={KM},
+           familyi={K\bibinitperiod},
+           given={AlGhamdi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f0fff17b6b55b992240f105185cecfa3}{%
+           family={NA},
+           familyi={N\bibinitperiod},
+           given={Moussa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \strng{fullhash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \strng{bibnamehash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \strng{authorbibnamehash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \strng{authornamehash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \strng{authorfullhash}{65e79cc96775e2860d84acb97fe5c9cb}
+      \field{labelalpha}{KN12}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Medical Informatics}
+      \field{langid}{english}
+      \field{title}{Internet use by the public to search for health-related information}
+      \field{volume}{81}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1386505611002644
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1386505611002644
+      \endverb
+    \endentry
     \entry{MVCDefinition}{online}{}
       \name{author}{1}{}{%
         {{hash=3ed0c4d0b5e3c85f6618a59b8bd678b2}{%
@@ -127,6 +232,91 @@
       \endverb
       \verb{url}
       \verb https://softwareengineering.stackexchange.com/questions/280383/where-we-should-not-use-mvc
+      \endverb
+    \endentry
+    \entry{Kursinis}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1b16178653c753025014a5fb00354971}{%
+           family={{Tomas Kiziela}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b16178653c753025014a5fb00354971}
+      \strng{fullhash}{1b16178653c753025014a5fb00354971}
+      \strng{bibnamehash}{1b16178653c753025014a5fb00354971}
+      \strng{authorbibnamehash}{1b16178653c753025014a5fb00354971}
+      \strng{authornamehash}{1b16178653c753025014a5fb00354971}
+      \strng{authorfullhash}{1b16178653c753025014a5fb00354971}
+      \field{labelalpha}{Tom19}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{lietuvių}
+      \field{title}{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \endverb
+    \endentry
+    \entry{VulSkApieMusLt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c0043ee9204f56c4730b7ca65a5596b0}{%
+           family={{Vilniaus universiteto ligoninės Santaros klinikos}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{fullhash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{bibnamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authorbibnamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authornamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authorfullhash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \field{labelalpha}{Vil19}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{lietuvių}
+      \field{title}{Apie mus}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://santa.lt/index.php?option=com_content&view=article&id=49&Itemid=139
+      \endverb
+      \verb{url}
+      \verb http://santa.lt/index.php?option=com_content&view=article&id=49&Itemid=139
+      \endverb
+    \endentry
+    \entry{InternetasLt}{article}{}
+      \name{author}{1}{}{%
+        {{hash=368b2a94114e62e96979499bdc80d4e8}{%
+           family={komitetas},
+           familyi={k\bibinitperiod},
+           given={Informacinės},
+           giveni={I\bibinitperiod},
+           prefix={visuomenės\bibnamedelima plėtros},
+           prefixi={v\bibinitperiod\bibinitdelim p\bibinitperiod}}}%
+      }
+      \strng{namehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{fullhash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{bibnamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authorbibnamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authornamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authorfullhash}{368b2a94114e62e96979499bdc80d4e8}
+      \field{labelalpha}{vpkom18}
+      \field{sortinit}{v}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{lietuvių}
+      \field{title}{Lietuva užima 13-ą vietą Europos Komisijos paskelbtame ES skaitmeninės ekonomikos ir visuomenės indekse}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://ivpk.lrv.lt/lt/naujienos/lietuva-uzima-13-a-vieta-europos-komisijos-paskelbtame-es-skaitmenines-ekonomikos-ir-visuomenes-indekse-2
+      \endverb
+      \verb{url}
+      \verb https://ivpk.lrv.lt/lt/naujienos/lietuva-uzima-13-a-vieta-europos-komisijos-paskelbtame-es-skaitmenines-ekonomikos-ir-visuomenes-indekse-2
       \endverb
     \endentry
   \enddatalist

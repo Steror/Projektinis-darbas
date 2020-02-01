@@ -23,8 +23,8 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
-\papertype{Kursinis darbas}
-\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
+\papertype{Projektinis darbas}
+\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų tinklalapyje}
 \titleineng{The Usability of the Search Process and Presenting its Results to the User for VUH Santaros klinikos website}
 \status{4 kurso 3 grupės studentas}
 \author{Tomas Kiziela}
@@ -51,12 +51,22 @@
 \sectionnonum{Įvadas}
 %Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
+Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe surasti reikalavimai sistemai kylantys iš naudotų poreikių ir panaudojamumo analizės, architektūriniai sprendimai ir technologijos atitinkančios reikalavimus ir sukurtas tinklapio prototipas.
 
+Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
+
+VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
+
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti nelengva\cite{Kursinis}. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
+
+Šio \textbf{darbo tikslas} yra apibrėžti kaip reikėtų įgyvendinti galutinę sistemą ir sukurti sistemos prototipą. Siekiami rezultatai - reikalavimai sistemai, tinklapio struktūros planas, sistemos architektūros modelis, technologijos sistemos kūrimui ir tinklapio prototipas.
 
 Uždaviniai:
 \begin{enumerate}
+	\item Identifikuoti reikalavimus sistemai
+	\item Suprojektuoti tinklapio struktūrą
 	\item Pasirinkti sistemos architektūros modelį
-	\item Palyginti ir pasirinkti technologijas reikalingas puslapio kūrimui
+	\item Palyginti ir pasirinkti technologijas reikalingas tinklapio įgyvendinimui
 	\item Sukurti galutinio sprendimo prototipą
 	%\item Paruošti sprendimo variantus
 	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
@@ -71,15 +81,37 @@ Uždaviniai:
 	%\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
+\section{Reikalavimai sistemai}
+Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}.
+
+\begin{table}[H]\footnotesize
+  \centering
+  \caption{Reikalavimai}
+  {\begin{tabular}{|l|c|c|} \hline
+    Nr. & Reikalavimas & Reikalavimo aprašymas\\
+    \hline
+    1  &     &        \\
+    2  &     &        \\
+    \hline
+  \end{tabular}}
+  \label{Reikalavimai}
+\end{table}
+
+
+\section{Tinklapio struktūros planas}
+
+
+
+
 \section{Sistemos architektūros modelis}
 Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
 
 Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
 
-Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau tai universalus poreikis ir ši architektūra tam netrukdo. Kadangi kuriamas tinklapis neturi išskirtinių bruožų, dėl kurių reikėtų galvoti naujus sprendimus, galima naudoti MVC modelį\cite{MVCSO1, MVCSO2}. Galiausiai, autorius jau turi patirties su šiuo modeliu, taigi nereikės mokytis šio modelio pagrindų.
+Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau tai universalus poreikis ir ši architektūra tam netrukdo. Kadangi kuriamas tinklapis neturi išskirtinių bruožų, dėl kurių reikėtų galvoti naujus sprendimus, galima naudoti MVC modelį\cite{MVCSO1, MVCSO2}. Galiausiai, autorius jau turi patirties su šiuo modeliu, taigi nereikės mokytis pagrindų.
 
 \section{Sistemą realizuojančios technologijos}
-Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos bus naudojamos kiekvienam sluoksniui. Šiuo atveju sluoksnių elementai būtų duomenų bazė ir jos valdymas (Model), puslapiai (View) ir komunikuojantis kodas (Controller).
+Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos bus naudojamos kiekvienam sluoksniui. Šiuo atveju sluoksnių elementai būtų duomenų bazė ir jos valdymas (Model), puslapiai (View) ir valdikliai (Controller).
 
 \subsection{Technologijos duomenų bazės valdymui}
 
@@ -87,7 +119,7 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
 MongoDB
 \subsection{Technologijos puslapių kūrimui}
 Angular.js, React, Ruby on Rails
-\subsection{Technologijos komunikuojančio kodo vykdymui}
+\subsection{Technologijos valdikliams įgyvendinti}
 .NET, Java, Ruby
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,

@@ -4,16 +4,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Įvadas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Sistemos architektūros modelis}{4}% 
+\contentsline {section}{\numberline {1.}Reikalavimai sistemai}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Sistemą realizuojančios technologijos}{5}% 
+\contentsline {section}{\numberline {2.}Tinklapio struktūros planas}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Technologijos duomenų bazės valdymui}{5}% 
+\contentsline {section}{\numberline {3.}Sistemos architektūros modelis}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Technologijos puslapių kūrimui}{5}% 
+\contentsline {section}{\numberline {4.}Sistemą realizuojančios technologijos}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Technologijos komunikuojančio kodo vykdymui}{5}% 
+\contentsline {subsection}{\numberline {4.1.}Technologijos duomenų bazės valdymui}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{6}% 
+\contentsline {subsection}{\numberline {4.2.}Technologijos puslapių kūrimui}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{7}% 
+\contentsline {subsection}{\numberline {4.3.}Technologijos valdikliams įgyvendinti}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai ir išvados}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{9}% 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
