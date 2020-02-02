@@ -57,18 +57,17 @@ Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosči
 
 VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
 
-Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti nelengva\cite{Kursinis}. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų\cite{Kursinis}. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
 
 Šio \textbf{darbo tikslas} yra apibrėžti kaip reikėtų įgyvendinti galutinę sistemą ir sukurti sistemos prototipą. Siekiami rezultatai - reikalavimai sistemai, tinklapio struktūros planas, sistemos architektūros modelis, technologijos sistemos kūrimui ir tinklapio prototipas.
 
 Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti reikalavimus sistemai
-	\item Suprojektuoti tinklapio struktūrą
+	\item Suprojektuoti tinklapio medį
 	\item Pasirinkti sistemos architektūros modelį
 	\item Palyginti ir pasirinkti technologijas reikalingas tinklapio įgyvendinimui
 	\item Sukurti galutinio sprendimo prototipą
-	%\item Paruošti sprendimo variantus
 	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	%\renewcommand{\labelenumii}{\theenumii}
 	%\begin{enumerate}
@@ -77,12 +76,98 @@ Uždaviniai:
 	%	\item Palyginti maketus
 	%	\item Sukurti galutinio sprendimo prototipą
 	%\end{enumerate}
-	%\item Išskirti detalius reikalavimus galutinio sprendimo įgyvendinimui
-	%\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
+
+\section{Panaudojamumo analizės rezultatai}
+Kursiniame darbe buvo įvertintas dabartinio tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Čia pateikiamos įvertinimo lentelės, kuriomis pagrįsti reikalavimai sistemai. DS - defekto sunkumas.
+
+\begin{center}
+\begin{tabular}{ |p{13,5cm}|p{2cm}| } 
+ \hline
+	Gairė & Ar tenkina? \\ \hline
+	1) Pagrindinė paieška lengvai valdoma & tenkina \\ \hline
+	2) Paieškos rezultatų puslapis naudotojui rodo, ko buvo ieškota, ir yra lengva pakeisti ir pakartoti užklausą & tenkina \\ \hline
+	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai & ne \\ \hline
+	4) Paieškos rezultatų puslapis aiškiai parodo kiek rezultatų gražinta ir rezultatų skaičius per puslapį gali būti reguliuojamas naudotojo & tenkina \\ \hline
+	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas & ne \\ \hline
+	6) Paieška dailiai susitvarko su tuščia užklausa & tenkina \\ \hline
+	7) Dažniausios užklausos gražina naudingus rezultatus & ne \\ \hline
+	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti & ne \\ \hline
+	9) Puslapis turi pajėgesnę paieškos sąsają leidžiančią naudotojams patikslinti užklausas & tenkina \\ \hline
+	10) Paieškos rezultatų puslapis nerodo besikartojančių rezultatų & tenkina \\ \hline
+	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams & ne \\ \hline
+	12) Paieška apima visą interneto svetainę, o ne tik jos dalį & tenkina \\ \hline
+	13) Jei svetainė leidžia naudotojams sudaryti sudėtingą paiešką, šios paieškos gali būti išsaugojamos ir kartojamos reguliariai & tenkina \\ \hline
+	14) Paieškos sąsaja padėta, naudotojams įprastoje vietoje (viršuje dešinėje) & tenkina \\ \hline
+	15) Paieškos laukas ir jo kontrolės aiškiai pavadintos & tenkina \\ \hline
+	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją & ne \\ \hline
+	17) Paieškos sritis aiškiai parašyta paieškos rezultatų puslapyje ir naudotojai gali ją susiaurinti & tenkina \\ \hline
+	18) Paieškos rezultatų puslapis atvaizduoja naudingą meta informaciją (informacija apie informaciją), kaip dokumento dydis, dokumento sukūrimo data ir failo tipas & tenkina \\ \hline
+	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų & ne \\ \hline
+	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) & ne \\ \hline
+\end{tabular}
+\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
+\label{PaieškosLentelėPrad}
+\end{center}
+
+\begin{center}
+\begin{longtable}{ |p{13,5cm}|p{2cm}| } 
+ \hline
+	Gairė & Ar tenkina? \\ \hline
+	1) Yra patogus ir akivaizdus būdas judėti tarp susijusių puslapių ir skyrių ir yra lengva grįžti į pagrindinį puslapį & tenkina \\ \hline
+	2) Informacija, kurios naudotojams dažnai prireikia yra lengvai pasiekiama iš daugumos puslapių & tenkina \\ \hline
+	3) Navigacijos pasirinkimai išrikiuoti pačiu racionaliausiu arba užduočiai orientuotu būdu & tenkina \\ \hline
+	4) Navigacijos sistema plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)  & ne \\ \hline
+	5) Paprasta, aiškaus modelio svetainės struktūra be nereikalingų lygių & ne \\ \hline
+	6) Pagrindiniai puslapio skyriai pasiekiami iš bet kurio puslapio ir nėra aklaviečių & tenkina \\ \hline
+	7) Navigacijos skirtukai patalpinti puslapio viršuje ir atrodo kaip paspaudžiamos versijos realaus pasaulio skirtukų & ne \\ \hline
+	8) Yra svetainės žemėlapis, kuris suteikia svetainės turinio apžvalgą & tenkina \\ \hline
+	9) Svetainės žemėlapį galima pasiekti iš bet kurio puslapio & tenkina \\ \hline
+	10) Svetainės žemėlapis suteikia glaustą svetainės apžvalgą, o ne pernaudotą navigacijos meniu ar sąrašą kiekvienos temos & ne \\ \hline
+	11) Suteikiamas geras navigacijos grįžtamasis ryšys (rodoma, kur randiesi puslapyje) & tenkina \\ \hline
+	12) Kategorijų pavadinimai tiksliai apibūdina informaciją viduje & ne \\ \hline
+	13) Nuorodos ir navigacijos pavadinimai susidaro iš raktinių žodžių, kurių naudotojai ieškos bandydami atlikti užduotį & tenkina \\ \hline
+	14) Terminologija ir susitarimai (kaip nuorodų spalvos) (maždaug) atitinka bendrą interneto naudojimą & tenkina \\ \hline
+	15) Nuorodos atrodo taip pačiai skirtingose svetainės dalyse & tenkina \\ \hline
+	16) Navigacijos elementams ir hiperteksto nuorodoms naudojami terminai yra nedviprasmiški ir be žargono & tenkina \\ \hline
+	17) Matomi pasikeitimai, kai naudotojas užveda kursorių ant kažko paspaudžiamo (neįskaitant kursoriaus pasikeitimų) & ne \\ \hline
+	18) Svarbus turinys pasiekiamas iš daugiau nei vienos nuorodos (naudotojams gali reikėt skirtingų nuorodų pavadinimų) & tenkina \\ \hline
+	19) Puslapiai skirti tik navigacijai (pavyzdžiui pradinis puslapis) gali būti peržiūrimi be slinkimo & tenkina \\ \hline
+	20) Svetainė leidžia naudotojui kontroliuoti sąveikos greitį ir eiliškumą & tenkina \\ \hline
+	21) Visuose puslapiuose yra aiškiai pažymėti išėjimai leidžiantys naudotojui pabėgti iš esamos užduoties be papildomo dialogo & tenkina \\ \hline
+	22) Svetainė neišjungia naršyklės „atgal“ mygtuko ir „atgal“ mygtukas visada matomas naršyklės įrankių juostoje & tenkina \\ \hline
+	23) Paspaudus „atgal“ mygtuką naudotojas visada gražinamas į puslapį, iš kurio atėjo & tenkina \\ \hline
+	24) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) & tenkina \\ \hline
+	25) Meniu instrukcijos, nurodymai ir žinutės atsiranda toje pačioje vietoje visuose puslapiuose & tenkina \\ \hline
+	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
+	\label{navigacijosirIAlentelėPrad}
+\end{longtable}
+\end{center}
+
+\begin{center}
+\begin{tabular}{ | p{4cm} | p{0,5cm} | p{11cm} | } 
+ \hline
+	Euristika & DS & Komentaras \\ \hline
+	1) Sistemos būsenos matomumas & 2 & Paspaudus mygtuką „ieškoti“ rodomas tuščias puslapis iki paieškos rezultatų gavimo. Paieška užtrunka apie 3 sekundes, taigi galėtų būti tekstas, animacija ar progreso juosta pranešanti, kad vyksta paieška. Užvedus kursorių ant paspaudžiamų elementų kaip nuorodų ir tam tikrų elementų, šie nepasikeičia, taigi vartotojui sunkiau juos pastebėti. \\ \hline
+	2) Atitikimas realiam pasauliui  & 2 & Daugumai vartotojų aktuali registracija pas gydytoją, taigi ji turėtų būti dar lengviau surandama naršant arba ieškant \\ \hline
+	3) Naudotojo valdomas dialogas & 1 & Dalis puslapių nerodo nukeliauto kelio, kai šie randami per paiešką \\ \hline
+	4) Darna ir standartai & 1 & Kai kuriuose puslapiuose pranyksta navigacijos elementai \\ \hline
+	5) Klaidų prevencija & 2 & Netinkami numatytieji nustatymai lemia, kad naudotojai dažnai atlieka netinkamą paiešką. Nėra patarimų kaip naudotis paieškos sistema. Vedant užklausą nepasiūlomi paieškos variantai. \\ \hline
+	6) Atpažinimas geriau nei atsiminimas & 2 & Navigacija nerodo gilesnių lygių, kol neatidaromas to lygio puslapis, taigi reikia žinoti, kurioje kategorije ieškomas elementas. Trūksta vaizdų, kurie asocijuojasi su mygtukais. Nėra pagalbos naudotis tinklapiu. \\ \hline
+	7) Naudojimo lankstumas ir našumas & 2 & Nerodomi susiję puslapiai. Negalima nueiti į giliausią kategorijos lygį vienu paspaudimu, reikia eiti per tėvinius elementus. \\ \hline
+	8) Estetiškas ir minimalistinis dizainas & 2 & Pertekliniai paspaudimai bandant naviguoti per kategorijas. \\ \hline
+	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą & 0 &  \\ \hline
+	10) Parama ir dokumentacija & 2 & Nėra informacijos ar pavyzdžių kaip naudoti sudėtingas paieškos funkcijas. \\ \hline
+\end{tabular}
+\captionof{table}{Euristinio vertinimo lentelė}
+\label{EuristikųLentelėPrad}
+\end{center}
 
 \section{Reikalavimai sistemai}
 Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}.
+
+
+Reikalavimai remiasi kursiniame darbe atlikta panaudojamumo analize, kaip „Rasti registraciją pas gydytoją“ ar „“.
 
 \begin{table}[H]\footnotesize
   \centering
@@ -98,11 +183,6 @@ Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibr�
 \end{table}
 
 
-\section{Tinklapio struktūros planas}
-
-
-
-
 \section{Sistemos architektūros modelis}
 Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
 
@@ -116,11 +196,11 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
 \subsection{Technologijos duomenų bazės valdymui}
 
 
-MongoDB
+
 \subsection{Technologijos puslapių kūrimui}
-Angular.js, React, Ruby on Rails
+
 \subsection{Technologijos valdikliams įgyvendinti}
-.NET, Java, Ruby
+
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -133,14 +213,6 @@ Angular.js, React, Ruby on Rails
 %buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
 %ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
 %priemonių.
-
-
-
-%\section{Reikalavimai galutinio sprendimo įgyvendinimui}
-%
-%Norint sukurti galutinį sprendimą liko išspręsti dar keletą problemų, šiame skyriuje nagrinėjamos šios problemos. 
-
-%\section{Technologijos galutinio sprendimo įgyvendinimui}
 
 \sectionnonum{Rezultatai ir išvados}
 

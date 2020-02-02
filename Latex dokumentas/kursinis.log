@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  2 FEB 2020 00:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  2 FEB 2020 22:18
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1184,21 +1184,55 @@ Package biblatex Info: Reference segment=0 on input line 39.
 
 ] [3
 
-] [4
+]
+Underfull \vbox (badness 10000) detected at line 135
+ []
 
-] [5
+[4
+
+] [5]
+Overfull \hbox (1.10963pt too wide) in paragraph at lines 150--150
+[]\TU/texgyretermes(0)/m/n/12 DS| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\TU/texgyretermes(0)/m/n/12 1) Sistemos būsenos
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 152--152
+[]\TU/texgyretermes(0)/m/n/12 2) Atitikimas realiam
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 156--156
+[]\TU/texgyretermes(0)/m/n/12 6) Atpažinimas geriau
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 160--160
+[]\TU/texgyretermes(0)/m/n/12 10) Parama ir doku-
+ []
+
+
+Overfull \hbox (7.5472pt too wide) in paragraph at lines 148--162
+ [] 
+ []
+
+[6] [7
 
 ]
-Underfull \hbox (badness 2134) in paragraph at lines 109--110
+Underfull \hbox (badness 2134) in paragraph at lines 189--190
 []\TU/texgyretermes(0)/m/n/12 Vienas iš populiariausių ir paprasčiausių archite
 ktūros modelių yra Modelis-Vaizdas-
  []
 
-[6
+[8
 
-] [7
+] [9
 
-] [8
+] [10
 
 ]
 
@@ -1210,7 +1244,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 155
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
 .
 
 
@@ -1218,7 +1252,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 155
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
 .
 
 
@@ -1226,7 +1260,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 155
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
 .
 
 
@@ -1234,7 +1268,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 155
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
 .
 
 
@@ -1242,7 +1276,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 155--155
+Underfull \hbox (badness 3118) in paragraph at lines 227--227
 []\TU/texgyretermes(0)/m/n/12 Stack Exchange. Where we should not use mvc? 2015
 . \TU/texgyretermes(0)/m/sc/12 url\TU/texgyretermes(0)/m/n/12 : $[][][][][] [] 
 [] []
@@ -1250,7 +1284,7 @@ Underfull \hbox (badness 3118) in paragraph at lines 155--155
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-155.
+227.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1258,7 +1292,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-155.
+227.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1266,13 +1300,13 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-155.
+227.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[9
+[11
 
 ] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
@@ -1280,12 +1314,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25754 strings out of 427748
- 504693 string characters out of 3146822
- 1005393 words of memory out of 3000000
- 29533 multiletter control sequences out of 15000+200000
+ 25759 strings out of 427748
+ 504789 string characters out of 3146822
+ 1019459 words of memory out of 3000000
+ 29538 multiletter control sequences out of 15000+200000
  546865 words of font info for 101 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1151b,7664s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (9 pages).
+Output written on kursinis.pdf (11 pages).
