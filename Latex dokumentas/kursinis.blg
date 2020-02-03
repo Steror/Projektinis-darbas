@@ -1,16 +1,16 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'kursinis.blg'
-[28] biber-MSWIN64:315> INFO - === 
-[76] Biber.pm:371> INFO - Reading 'kursinis.bcf'
-[139] Biber.pm:889> INFO - Found 9 citekeys in bib section 0
-[153] Biber.pm:4093> INFO - Processing section 0
-[171] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
-[174] bibtex.pm:1523> INFO - LaTeX decoding ...
-[192] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
-[226] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Steror\AppData\Local\Temp\WHLfKlWSLl\bibliografija.bib_19956.utf8, line 4, warning: 148 characters of junk seen at toplevel
-[240] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[240] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[240] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
-[268] bbl.pm:636> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
-[271] bbl.pm:739> INFO - Output to kursinis.bbl
-[274] Biber.pm:110> INFO - WARNINGS: 1
+[20] biber-MSWIN64:315> INFO - === 
+[41] Biber.pm:371> INFO - Reading 'kursinis.bcf'
+[105] Biber.pm:889> INFO - Found 10 citekeys in bib section 0
+[115] Biber.pm:4093> INFO - Processing section 0
+[125] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
+[127] bibtex.pm:1523> INFO - LaTeX decoding ...
+[147] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
+[179] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Steror\AppData\Local\Temp\cBkrBwWoqm\bibliografija.bib_3296.utf8, line 4, warning: 148 characters of junk seen at toplevel
+[194] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[194] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[194] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
+[206] bbl.pm:636> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
+[209] bbl.pm:739> INFO - Output to kursinis.bbl
+[213] Biber.pm:110> INFO - WARNINGS: 1

@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{MVCDefinition}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e6827c4af51ef69f79e5dcfc1470febe}{%
+           family={Christensson},
+           familyi={C\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \strng{fullhash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \strng{bibnamehash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \strng{authorbibnamehash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \strng{authornamehash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \strng{authorfullhash}{e6827c4af51ef69f79e5dcfc1470febe}
+      \field{labelalpha}{Chr18}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{anglų}
+      \field{title}{MVC}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://techterms.com/definition/mvc
+      \endverb
+      \verb{url}
+      \verb https://techterms.com/definition/mvc
+      \endverb
+    \endentry
     \entry{InternetUseByPublicHKEn}{article}{}
       \name{author}{6}{}{%
         {{hash=a99a666c7e3c1ae4701af1cd318cfe03}{%
@@ -88,6 +117,35 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
       \endverb
     \endentry
+    \entry{Kursinis}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b2b4c5b6a7c3dac15a45c43a8d284d92}{%
+           family={Kiziela},
+           familyi={K\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \strng{fullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \strng{bibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \strng{authorbibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \strng{authornamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \strng{authorfullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
+      \field{labelalpha}{Kiz19}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{lietuvių}
+      \field{title}{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \endverb
+    \endentry
     \entry{InternetUseByPublicSAEn}{article}{}
       \name{author}{2}{}{%
         {{hash=2e53dcfbbb1a5aba4608942ddf292c6d}{%
@@ -122,33 +180,6 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S1386505611002644
-      \endverb
-    \endentry
-    \entry{MVCDefinition}{online}{}
-      \name{author}{1}{}{%
-        {{hash=3ed0c4d0b5e3c85f6618a59b8bd678b2}{%
-           family={{Per Christensson}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \strng{fullhash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \strng{bibnamehash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \strng{authorbibnamehash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \strng{authornamehash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \strng{authorfullhash}{3ed0c4d0b5e3c85f6618a59b8bd678b2}
-      \field{labelalpha}{Per18}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{anglų}
-      \field{title}{MVC}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://techterms.com/definition/mvc
-      \endverb
-      \verb{url}
-      \verb https://techterms.com/definition/mvc
       \endverb
     \endentry
     \entry{MVCSO1}{online}{}
@@ -234,31 +265,33 @@
       \verb https://softwareengineering.stackexchange.com/questions/280383/where-we-should-not-use-mvc
       \endverb
     \endentry
-    \entry{Kursinis}{online}{}
+    \entry{HomePage}{online}{}
       \name{author}{1}{}{%
-        {{hash=1b16178653c753025014a5fb00354971}{%
-           family={{Tomas Kiziela}},
-           familyi={T\bibinitperiod}}}%
+        {{hash=2f7aff51b256956b777c52b0f014af67}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{1b16178653c753025014a5fb00354971}
-      \strng{fullhash}{1b16178653c753025014a5fb00354971}
-      \strng{bibnamehash}{1b16178653c753025014a5fb00354971}
-      \strng{authorbibnamehash}{1b16178653c753025014a5fb00354971}
-      \strng{authornamehash}{1b16178653c753025014a5fb00354971}
-      \strng{authorfullhash}{1b16178653c753025014a5fb00354971}
-      \field{labelalpha}{Tom19}
+      \strng{namehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{fullhash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{bibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorbibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authornamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorfullhash}{2f7aff51b256956b777c52b0f014af67}
+      \field{labelalpha}{Tra16}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{lietuvių}
-      \field{title}{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
-      \field{year}{2019}
+      \field{langid}{anglų}
+      \field{title}{20 home page usability guidelines}
+      \field{year}{2016}
       \verb{urlraw}
-      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \verb https://www.userfocus.co.uk/resources/homepagechecklist.html
       \endverb
       \verb{url}
-      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
+      \verb https://www.userfocus.co.uk/resources/homepagechecklist.html
       \endverb
     \endentry
     \entry{VulSkApieMusLt}{online}{}

@@ -2002,10 +2002,11 @@
     <bcf:citekey order="5">Kursinis</bcf:citekey>
     <bcf:citekey order="6">Kursinis</bcf:citekey>
     <bcf:citekey order="7">Kursinis</bcf:citekey>
-    <bcf:citekey order="8">MVCDefinition</bcf:citekey>
-    <bcf:citekey order="9">MVCSO3</bcf:citekey>
-    <bcf:citekey order="10">MVCSO1</bcf:citekey>
-    <bcf:citekey order="10">MVCSO2</bcf:citekey>
+    <bcf:citekey order="8">HomePage</bcf:citekey>
+    <bcf:citekey order="9">MVCDefinition</bcf:citekey>
+    <bcf:citekey order="10">MVCSO3</bcf:citekey>
+    <bcf:citekey order="11">MVCSO1</bcf:citekey>
+    <bcf:citekey order="11">MVCSO2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

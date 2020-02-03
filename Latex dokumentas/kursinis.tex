@@ -49,8 +49,6 @@
 
 
 \sectionnonum{Įvadas}
-%Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
-%Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
 Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe surasti reikalavimai sistemai kylantys iš naudotų poreikių ir panaudojamumo analizės, architektūriniai sprendimai ir technologijos atitinkančios reikalavimus ir sukurtas tinklapio prototipas.
 
 Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
@@ -64,24 +62,16 @@ Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu
 Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti reikalavimus sistemai
-	\item Suprojektuoti tinklapio medį
-	\item Pasirinkti sistemos architektūros modelį
+	\item Suprojektuoti tinklapį
 	\item Palyginti ir pasirinkti technologijas reikalingas tinklapio įgyvendinimui
 	\item Sukurti galutinio sprendimo prototipą
-	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	%\renewcommand{\labelenumii}{\theenumii}
-	%\begin{enumerate}
-	%	\item Remiantis lyginimo kriterijais ir literatūros šaltiniais išskirti alternatyvius sprendimus
-	%	\item Sukurti sprendimo variantų maketus
-	%	\item Palyginti maketus
-	%	\item Sukurti galutinio sprendimo prototipą
-	%\end{enumerate}
 \end{enumerate}
 
-\section{Panaudojamumo analizės rezultatai}
-Kursiniame darbe buvo įvertintas dabartinio tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Čia pateikiamos įvertinimo lentelės, kuriomis pagrįsti reikalavimai sistemai. DS - defekto sunkumas.
+\sectionnonum{Panaudojamumo analizės rezultatai}
+Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Šiomis gairėmis ir euristikomis pagrįsti reikalavimai sistemai. DS - defekto sunkumas (0 - nėra defekto, 3 - kritinis defektas).
 
 \begin{center}
+\captionof{table}{Paieškos panaudojamumo gairių vertinimas pradiniam puslapiui}
 \begin{tabular}{ |p{13,5cm}|p{2cm}| } 
  \hline
 	Gairė & Ar tenkina? \\ \hline
@@ -106,11 +96,12 @@ Kursiniame darbe buvo įvertintas dabartinio tinklapio panaudojamumas pagal Davi
 	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų & ne \\ \hline
 	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) & ne \\ \hline
 \end{tabular}
-\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
 \label{PaieškosLentelėPrad}
 \end{center}
+\pagebreak
 
-\begin{center}
+
+\captionof{table}{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimas pradiniam puslapiui}
 \begin{longtable}{ |p{13,5cm}|p{2cm}| } 
  \hline
 	Gairė & Ar tenkina? \\ \hline
@@ -139,12 +130,12 @@ Kursiniame darbe buvo įvertintas dabartinio tinklapio panaudojamumas pagal Davi
 	23) Paspaudus „atgal“ mygtuką naudotojas visada gražinamas į puslapį, iš kurio atėjo & tenkina \\ \hline
 	24) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) & tenkina \\ \hline
 	25) Meniu instrukcijos, nurodymai ir žinutės atsiranda toje pačioje vietoje visuose puslapiuose & tenkina \\ \hline
-	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
-	\label{navigacijosirIAlentelėPrad}
 \end{longtable}
-\end{center}
+\label{NavigacijosirIALentelėPrad}
+\addtocounter{table}{-1}
 
 \begin{center}
+\captionof{table}{Euristinis vertinimas}
 \begin{tabular}{ | p{4cm} | p{0,5cm} | p{11cm} | } 
  \hline
 	Euristika & DS & Komentaras \\ \hline
@@ -159,31 +150,46 @@ Kursiniame darbe buvo įvertintas dabartinio tinklapio panaudojamumas pagal Davi
 	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą & 0 &  \\ \hline
 	10) Parama ir dokumentacija & 2 & Nėra informacijos ar pavyzdžių kaip naudoti sudėtingas paieškos funkcijas. \\ \hline
 \end{tabular}
-\captionof{table}{Euristinio vertinimo lentelė}
 \label{EuristikųLentelėPrad}
 \end{center}
 
+\sectionnonum{Sprendimo maketai}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/PaieškosPrototipas}
+    \caption{Paieškos sistemos maketas su pataisymais}
+    \label{img:PaieškosPrototipas}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/NavigacijosPrototipas}
+    \caption{Navigacijos sistemos maketas su pataisymais}
+    \label{img:NavigacijosPrototipas}
+\end{figure}
+
 \section{Reikalavimai sistemai}
-Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}.
-
-
-Reikalavimai remiasi kursiniame darbe atlikta panaudojamumo analize, kaip „Rasti registraciją pas gydytoją“ ar „“.
+Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}. Reikalavimai remiasi gairėmis\cite{HomePage}, naudotojų poreikiais ir kursiniame darbe atlikta panaudojamumo analize - lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}.
 
 \begin{table}[H]\footnotesize
   \centering
   \caption{Reikalavimai}
-  {\begin{tabular}{|l|c|c|} \hline
-    Nr. & Reikalavimas & Reikalavimo aprašymas\\
+  {\begin{tabular}{|l|c|} \hline
+    Nr. & Reikalavimas \\
     \hline
-    1  &     &        \\
-    2  &     &        \\
+    FR.1  & Iš kiekvieno puslapio turi būti pasiekiama reigstracija pas gydytoją internetu  \\
+    FR.2  &   \\
     \hline
   \end{tabular}}
   \label{Reikalavimai}
 \end{table}
 
 
-\section{Sistemos architektūros modelis}
+\section{Projektavimas}
+\subsection{Puslapio architektūra}
+\subsection{Sistemos architektūra}
 Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
 
 Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
@@ -200,19 +206,6 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
 \subsection{Technologijos puslapių kūrimui}
 
 \subsection{Technologijos valdikliams įgyvendinti}
-
-%Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
-%pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
-%gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
-%temos. Skyriai gali turėti poskyrius ir smulkesnes sudėtines dalis, kaip
-%punktus ir papunkčius.
-
-%Medžiaga turi būti dėstoma aiškiai, pateikiant argumentus. Tekstas dėstomas
-%trečiuoju asmeniu, t.y. rašoma ne „aš manau“, bet „autorius mano“, „autoriaus
-%nuomone“. Reikėtų vengti informacijos nesuteikiančių frazių, pvz., „...kaip jau
-%buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
-%ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
-%priemonių.
 
 \sectionnonum{Rezultatai ir išvados}
 

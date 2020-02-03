@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  2 FEB 2020 22:18
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  3 FEB 2020 19:29
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1160,12 +1160,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kursinis.bbl' found.
 (kursinis.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
 
 ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
  ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1184,67 +1184,76 @@ Package biblatex Info: Reference segment=0 on input line 39.
 
 ] [3
 
+] [4
+
 ]
-Underfull \vbox (badness 10000) detected at line 135
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 104.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) detected at line 126
  []
 
-[4
-
-] [5]
-Overfull \hbox (1.10963pt too wide) in paragraph at lines 150--150
+[5]
+Overfull \hbox (1.10963pt too wide) in paragraph at lines 141--141
 []\TU/texgyretermes(0)/m/n/12 DS| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\TU/texgyretermes(0)/m/n/12 1) Sistemos būsenos
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 152--152
+Underfull \hbox (badness 5460) in paragraph at lines 143--143
 []\TU/texgyretermes(0)/m/n/12 2) Atitikimas realiam
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 156--156
+Underfull \hbox (badness 1540) in paragraph at lines 147--147
 []\TU/texgyretermes(0)/m/n/12 6) Atpažinimas geriau
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 160--160
+Underfull \hbox (badness 5924) in paragraph at lines 151--151
 []\TU/texgyretermes(0)/m/n/12 10) Parama ir doku-
  []
 
 
-Overfull \hbox (7.5472pt too wide) in paragraph at lines 148--162
+Overfull \hbox (7.5472pt too wide) in paragraph at lines 139--154
  [] 
  []
 
-[6] [7
+[6]
+File: img/PaieškosPrototipas.png Graphic file (type bmp)
+<img/PaieškosPrototipas.png>
 
-]
-Underfull \hbox (badness 2134) in paragraph at lines 189--190
-[]\TU/texgyretermes(0)/m/n/12 Vienas iš populiariausių ir paprasčiausių archite
-ktūros modelių yra Modelis-Vaizdas-
+Overfull \hbox (6.32387pt too wide) in paragraph at lines 161--162
+ [][] 
  []
 
-[8
+File: img/NavigacijosPrototipas.png Graphic file (type bmp)
+<img/NavigacijosPrototipas.png>
+
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+[7
+
+] [8
 
 ] [9
 
 ] [10
 
+] [11
+
 ]
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 220
 .
 
 
@@ -1252,7 +1261,23 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+220.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 220
 .
 
 
@@ -1260,7 +1285,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 220
 .
 
 
@@ -1268,7 +1293,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 227
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 220
 .
 
 
@@ -1276,15 +1301,15 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 227--227
+Underfull \hbox (badness 3118) in paragraph at lines 220--220
 []\TU/texgyretermes(0)/m/n/12 Stack Exchange. Where we should not use mvc? 2015
 . \TU/texgyretermes(0)/m/sc/12 url\TU/texgyretermes(0)/m/n/12 : $[][][][][] [] 
 [] []
  []
 
 
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-227.
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 220
+.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1292,7 +1317,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-227.
+220.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1300,13 +1325,13 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-227.
+220.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[11
+[12
 
 ] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
@@ -1314,12 +1339,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25759 strings out of 427748
- 504789 string characters out of 3146822
- 1019459 words of memory out of 3000000
- 29538 multiletter control sequences out of 15000+200000
+ 25778 strings out of 427748
+ 505195 string characters out of 3146822
+ 1011521 words of memory out of 3000000
+ 29549 multiletter control sequences out of 15000+200000
  546865 words of font info for 101 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1151b,7664s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1151b,7660s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (11 pages).
+Output written on kursinis.pdf (12 pages).
