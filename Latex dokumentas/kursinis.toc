@@ -10,23 +10,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.}Reikalavimai sistemai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Projektavimas}{9}% 
+\contentsline {section}{\numberline {2.}Projektavimas}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Puslapio architektūra}{9}% 
+\contentsline {subsection}{\numberline {2.1.}Puslapio architektūra}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Sistemos architektūra}{9}% 
+\contentsline {subsection}{\numberline {2.2.}Sistemos architektūra}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Sistemą realizuojančios technologijos}{10}% 
+\contentsline {section}{\numberline {3.}Sistemą realizuojančios technologijos}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Technologijos duomenų bazės valdymui}{10}% 
+\contentsline {subsection}{\numberline {3.1.}Technologijos duomenų bazės valdymui}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Technologijos puslapių kūrimui}{10}% 
+\contentsline {subsection}{\numberline {3.2.}Technologijos puslapių kūrimui}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Technologijos valdikliams įgyvendinti}{10}% 
+\contentsline {subsection}{\numberline {3.3.}Technologijos valdikliams įgyvendinti}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{11}% 
+\contentsline {section}{Rezultatai ir išvados}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{12}% 
+\contentsline {section}{Šaltiniai}{13}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

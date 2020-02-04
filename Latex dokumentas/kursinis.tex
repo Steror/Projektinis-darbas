@@ -154,7 +154,7 @@ Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Tra
 \end{center}
 
 \sectionnonum{Sprendimo maketai}
-
+Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir informacijos architektūrai.
 
 \begin{figure}[H]
     \centering
@@ -171,21 +171,71 @@ Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Tra
 \end{figure}
 
 \section{Reikalavimai sistemai}
-Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}. Reikalavimai remiasi gairėmis\cite{HomePage}, naudotojų poreikiais ir kursiniame darbe atlikta panaudojamumo analize - lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}.
+Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}. Reikalavimai remiasi gairėmis - lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}.
 
-\begin{table}[H]\footnotesize
-  \centering
-  \caption{Reikalavimai}
-  {\begin{tabular}{|l|c|} \hline
-    Nr. & Reikalavimas \\
-    \hline
-    FR.1  & Iš kiekvieno puslapio turi būti pasiekiama reigstracija pas gydytoją internetu  \\
-    FR.2  &   \\
-    \hline
-  \end{tabular}}
-  \label{Reikalavimai}
-\end{table}
+Nefunkciniai reikalavimai paieškos sistemai iš gairių:
+\begin{enumerate}
+	\item Paiešką turi būti galima atlikti su pelės paspaudimu arba klaviatūros klavišu
+	\item Paieškos rezultatų puslapis turi parodyti, ko buvo ieškota, turi būti lengva pakeisti ir pakartoti užklausą
+	\item Paieškos rezultatai turi būti aiškūs ir naudingi, reitinguojami pagal atitikimą užklausai
+	\item Paieškos rezultatų puslapis turi parodyti, kiek rezultatų gražinta, ir turi būti galima reguliuoti kiek rezultatų parodyti per puslapį
+	\item Jei paieška negražina rezultatų, turi būti pasiūlomi pakeitimai užklausai pagerinti
+	\item Paieška turi nesutrikti ir su tuščia užklausa
+	\item Dažnos užklausos turi gražinti naudingus rezultatus
+	\item Paieška turi turėti šabloną arba patarimus kaip ją tinkamai naudoti
+	\item Tinklapis turi turėti pajėgesnę paieškos sistemą leidžiančią patikslinti užklausas
+	\item Paieškos rezultatų puslapis turi nerodyti pasikartojančių rezultatų
+	\item Paieškos laukas turi būti pakankamai ilgas dažnų užklausų ilgiams
+	\item Paieška turi apimti visą tinklapį
+	\item Turi būti galima išsaugoti ir kartoti sudėtingą paiešką
+	\item Paieška turi būti viršuje dešinėje
+	\item Paieškos laukas ir jo kontrolės turi būti aiškiai pavadintos
+	\item Puslapis turi palaikyti ir paieškos ir naršymo strategiją
+	\item Paieškos sritis turi būti aiškiai parašyta rezultatų puslapyje ir turi būti galima ją susiaurinti
+	\item Paieškos rezultatų puslapis turi parodyti naudingą informaciją apie informaciją, kaip dokumento dydis, dokumento sukūrimo data ir failo tipas
+	\item Paieškos sistema turi automatiškai patikrinti rašybą ir ieškoti daugiaskaitinių formų ir sinonimų
+	\item Paieškos sistema turi leisti ieškoti panašių rezultatų („daugiau tokių“)
+\end{enumerate}
 
+Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių:
+\begin{enumerate}
+	\item Turi būti lengva judėti tarp susijusių puslapių ir skyrių ir lengva grįžti į pagrindinį puslapį
+	\item Informacija, kurios naudotojams dažnai prireikia turi būti lengvai pasiekiama iš daugumos puslapių
+	\item Navigacijos pasirinkimai turi būti išrikiuoti pačiu racionaliausiu arba užduočiai orientuotu būdu
+	\item Navigacijos sistema turi būti plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)
+	\item Tinklapio struktūra turi būti paprasta, aiški ir be nereikalingų lygių
+	\item Pagrindiniai puslapio skyriai turi būti pasiekiami iš bet kurio puslapio ir negali būti aklaviečių
+	\item Navigacijos skirtukai turi atrodyti kaip paspaudžiamos versijos relaus pasaulio skirtukų
+	\item Turi būti tinklapio žemėlapis, kuriame matyti tinklapio turinio apžvalga
+	\item Tinklapio žemėlapį turi būti galima pasiekti iš bet kurio puslapio
+	\item Tinklapio žemėlapis turi suteikti glaustą tinklapio apžvalgą, ne perpanaudotą navigacijos meniu ar kiekvienos temos sąrašą
+	\item Turi būti suteikiamas geras navigacijos grįžtamasis ryšys, rodoma, kur randiesi puslapyje
+	\item Kategorijų pavadinimai turi tiksliai apibūdinti informaciją viduje
+	\item Nuorodos ir navigacijos pavadinimai turi susidaryti iš raktinių žodžių, kurių naudotojai ieškos bandydami atlikti užduotį
+	\item Terminologija ir susitarimai (kaip nuorodų spalvos) turi atitikti bendrą interneto naudojimą
+	\item Nuorodos turi atrodyti taip pačiai skirtingose tinklapio dalyse
+	\item Navigacijos elementams ir hiperteksto nuorodoms turi būti naudojami aiškūs ir tikslūs terminai
+	\item Turi būti matomi pasikeitimai, kai naudotojas užveda kursorių and kažko paspaudžiamo (ne tik kursoriaus pasikeitimai)
+	\item Svarbus turinys turi būti pasiekiamas iš daugiau nei vienos nuorodos (gali būti skirtingi nuorodų pavadinimai)
+	\item Puslapiai skirti tik navigacijai (pavyzdžiui pradinis puslapis) gali būti peržiūrimi be slinkimo
+	\item Tinklapis turi leisti naudotojui kontroliuoti sąveikos greitį ir eiliškumą
+	\item Visuose puslapiuose turi būti aiškiai pažymėti išėjimai leidžiantys naudotojui pabėgti iš esamos užduoties be papildomo dialogo
+	\item Tinklapyje turi veikti naršklės „atgal“ mygtukas ir „atgal“ mygtukas turi būti visada matomas naršyklės įrankių juostoje
+	\item Paspaudus „atgal“ mygtuką naudotojas visada gražinamas į puslapį, iš kurio atėjo
+	\item Kai puslapis sukuria naujus langus, jie turi neklaidinti naudotojo (jie dialogo lango dydžio ir lengvai uždaromi)
+	\item Meniu instrukcijos, nurodymai ir žinutės turi atsirasti toje pačioje vietoje visuose puslapiuose
+\end{enumerate}
+
+Papildomi nefunkciniai reikalavimai iš euristikų:
+\begin{enumerate}
+	\item Kai paieška užtrunka ilgiau nei sekundę, turi būti parodomi ženklai, kad vyksta procesas
+	\item Internetinė registracija pas gydytoją turi būti pasiekiama iš bet kurio puslapio
+	\item Visuose puslapiuose, kuriems priklauso, turi būti rodomas nukeliautas kelias per navigacijos meniu arba nuorodas į skyrius
+	\item Paieškos sistemos numatytieji nustatymai turi būti pritaikyti dažniausioms užklausoms arba pagal interneto standartus
+	\item Navigacija turi leisti peržiūrėti visus jos elementus neatidarant kito puslapio
+	\item Navigacijos elementai turi būti susieti su paveiksliukais, kur įmanoma
+	\item Turi būti dažnai užduodamų klausimų puslapis, kuriame paaiškinama kaip naudotis tinklapiu
+\end{enumerate}
 
 \section{Projektavimas}
 \subsection{Puslapio architektūra}
