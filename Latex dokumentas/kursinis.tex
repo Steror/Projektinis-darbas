@@ -173,7 +173,7 @@ Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir infor
 \section{Reikalavimai sistemai}
 Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}. Reikalavimai remiasi gairėmis - lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}.
 
-Nefunkciniai reikalavimai paieškos sistemai iš gairių:
+\subsection{Nefunkciniai reikalavimai paieškos sistemai iš gairių}
 \begin{enumerate}
 	\item Paiešką turi būti galima atlikti su pelės paspaudimu arba klaviatūros klavišu
 	\item Paieškos rezultatų puslapis turi parodyti, ko buvo ieškota, turi būti lengva pakeisti ir pakartoti užklausą
@@ -188,7 +188,7 @@ Nefunkciniai reikalavimai paieškos sistemai iš gairių:
 	\item Paieškos laukas turi būti pakankamai ilgas dažnų užklausų ilgiams
 	\item Paieška turi apimti visą tinklapį
 	\item Turi būti galima išsaugoti ir kartoti sudėtingą paiešką
-	\item Paieška turi būti viršuje dešinėje
+	\item Paieškos laukas turi būti naudotojams įprastoje vietoje, dažniausiai viršuje dešinėje
 	\item Paieškos laukas ir jo kontrolės turi būti aiškiai pavadintos
 	\item Puslapis turi palaikyti ir paieškos ir naršymo strategiją
 	\item Paieškos sritis turi būti aiškiai parašyta rezultatų puslapyje ir turi būti galima ją susiaurinti
@@ -197,7 +197,7 @@ Nefunkciniai reikalavimai paieškos sistemai iš gairių:
 	\item Paieškos sistema turi leisti ieškoti panašių rezultatų („daugiau tokių“)
 \end{enumerate}
 
-Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių:
+\subsection{Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių}
 \begin{enumerate}
 	\item Turi būti lengva judėti tarp susijusių puslapių ir skyrių ir lengva grįžti į pagrindinį puslapį
 	\item Informacija, kurios naudotojams dažnai prireikia turi būti lengvai pasiekiama iš daugumos puslapių
@@ -226,9 +226,9 @@ Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių
 	\item Meniu instrukcijos, nurodymai ir žinutės turi atsirasti toje pačioje vietoje visuose puslapiuose
 \end{enumerate}
 
-Papildomi nefunkciniai reikalavimai iš euristikų:
+\subsection{Papildomi nefunkciniai reikalavimai iš euristikų}
 \begin{enumerate}
-	\item Kai paieška užtrunka ilgiau nei sekundę, turi būti parodomi ženklai, kad vyksta procesas
+	\item Kai paieška užtrunka ilgiau nei sekundę, turi būti parodomi ženklai, kad vyksta paieškos procesas
 	\item Internetinė registracija pas gydytoją turi būti pasiekiama iš bet kurio puslapio
 	\item Visuose puslapiuose, kuriems priklauso, turi būti rodomas nukeliautas kelias per navigacijos meniu arba nuorodas į skyrius
 	\item Paieškos sistemos numatytieji nustatymai turi būti pritaikyti dažniausioms užklausoms arba pagal interneto standartus
@@ -239,6 +239,36 @@ Papildomi nefunkciniai reikalavimai iš euristikų:
 
 \section{Projektavimas}
 \subsection{Puslapio architektūra}
+Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendimai. Kadangi šiame darbe gerinama navigacija ir paieška, kiti dabartinio puslapio elementai liks minimaliai pakeisti arba nepakeisti.
+
+Tinklapyje autorius mato tris pagrindinius puslapių tipus: pagrindinis puslapis, turinio puslapis ir paieškos puslapis. Šių puslapių elementų dabartinis išdėstymas autoriui atrodo logiškas ir netrukdo surasti informaciją. Paieška yra naudotojams įprastoje vietoje (1.1.14 reikalavimas). Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}. Navigacija visuose kituose puslapiuose kairėje pusėje, tai gerai matoma vieta \cite{AttentionLeft}, sutaupoma vertikalios vietos ir leidžia naudotojui matyti, kur jis randasi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{img/PuslapioArchPagrindinis}
+    \caption{Pagrindinio puslapio išdėstymas}
+    \label{img:PagrindinisArch}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{img/PuslapioArchTurinys}
+  \captionof{figure}{Turinio puslapio išdėstymas}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{img/PuslapioArchPaieška}
+  \captionof{figure}{Paieškos puslapio išdėstymas}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+\subsection{Navigacijos meniu}
+
+
 \subsection{Sistemos architektūra}
 Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
 
@@ -280,7 +310,25 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
 %vartojami specialūs paaiškinimo reikalaujantys terminai ir rečiau sutinkamos
 %santrumpos.
 
-%\appendix  % Priedai
+\appendix  % Priedai
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/Pagrindinis}
+    \caption{Pagrindinis puslapis}
+    \label{img:PagrindinisPuslapis}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/Turinys}
+    \caption{Turinio puslapis}
+    \label{img:TurinysPuslapis}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/Paieška}
+    \caption{Paieškos puslapis}
+    \label{img:PaieškaPuslapis}
+\end{figure}
 % Prieduose gali būti pateikiama pagalbinė, ypač darbo autoriaus savarankiškai
 % parengta, medžiaga. Savarankiški priedai gali būti pateikiami ir
 % kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
