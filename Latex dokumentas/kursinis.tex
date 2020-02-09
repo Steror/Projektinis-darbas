@@ -22,7 +22,7 @@
 % Titulinio aprašas
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
-\department{Programų sistemų katedra}
+\department{Programų sistemų bakalauro studijų programa}
 \papertype{Projektinis darbas}
 \title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų tinklalapyje}
 \titleineng{The Usability of the Search Process and Presenting its Results to the User for VUH Santaros klinikos website}
@@ -49,15 +49,15 @@
 
 
 \sectionnonum{Įvadas}
-Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe surasti reikalavimai sistemai kylantys iš naudotų poreikių ir panaudojamumo analizės, architektūriniai sprendimai ir technologijos atitinkančios reikalavimus ir sukurtas tinklapio prototipas.
+Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe surasti reikalavimai sistemai kylantys iš naudotų poreikių ir panaudojamumo analizės, architektūriniai sprendimai ir technologijos atitinkančios reikalavimus ir sukurtas tinklapio prototipas. Šis darbas yra autoriaus kursinio darbo tesinys \cite{Kursinis}.
+
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
 
 Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
 
 VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
 
-Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų\cite{Kursinis}. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
-
-Šio \textbf{darbo tikslas} yra apibrėžti kaip reikėtų įgyvendinti galutinę sistemą ir sukurti sistemos prototipą. Siekiami rezultatai - reikalavimai sistemai, tinklapio struktūros planas, sistemos architektūros modelis, technologijos sistemos kūrimui ir tinklapio prototipas.
+Šio \textbf{darbo tikslas} yra apibrėžti reikalavimus, suprojektuoti galutinę sistemą, pasirinkti technologijas tinkančias sistemos kūrimui ir sukurti sistemos prototipą. 
 
 Uždaviniai:
 \begin{enumerate}
@@ -68,47 +68,47 @@ Uždaviniai:
 \end{enumerate}
 
 \sectionnonum{Panaudojamumo analizės rezultatai}
-Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Šiomis gairėmis ir euristikomis pagrįsti reikalavimai sistemai. DS - defekto sunkumas (0 - nėra defekto, 3 - kritinis defektas).
+Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Prie defektų parašyti skaičiai nurodo kuris maketas ir kuri maketo dalis juos taiso.
 
 \begin{center}
 \captionof{table}{Paieškos panaudojamumo gairių vertinimas pradiniam puslapiui}
-\begin{tabular}{ |p{13,5cm}|p{2cm}| } 
+\begin{tabular}{ |p{13cm}|p{2,5cm}| } 
  \hline
 	Gairė & Ar tenkina? \\ \hline
 	1) Pagrindinė paieška lengvai valdoma & tenkina \\ \hline
 	2) Paieškos rezultatų puslapis naudotojui rodo, ko buvo ieškota, ir yra lengva pakeisti ir pakartoti užklausą & tenkina \\ \hline
-	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai & ne \\ \hline
+	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai & ne (\ref{img:PaieškosPrototipas}.2 pav.) \\ \hline
 	4) Paieškos rezultatų puslapis aiškiai parodo kiek rezultatų gražinta ir rezultatų skaičius per puslapį gali būti reguliuojamas naudotojo & tenkina \\ \hline
-	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas & ne \\ \hline
+	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas & ne (\ref{img:PaieškosPrototipas}.4 pav.) \\ \hline
 	6) Paieška dailiai susitvarko su tuščia užklausa & tenkina \\ \hline
-	7) Dažniausios užklausos gražina naudingus rezultatus & ne \\ \hline
-	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti & ne \\ \hline
+	7) Dažniausios užklausos gražina naudingus rezultatus & ne (\ref{img:PaieškosPrototipas}.2 pav.) \\ \hline
+	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti & ne (\ref{img:PaieškosPrototipas}.4 pav.) \\ \hline
 	9) Puslapis turi pajėgesnę paieškos sąsają leidžiančią naudotojams patikslinti užklausas & tenkina \\ \hline
 	10) Paieškos rezultatų puslapis nerodo besikartojančių rezultatų & tenkina \\ \hline
-	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams & ne \\ \hline
+	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams & ne (\ref{img:PaieškosPrototipas}.1 pav.) \\ \hline
 	12) Paieška apima visą interneto svetainę, o ne tik jos dalį & tenkina \\ \hline
 	13) Jei svetainė leidžia naudotojams sudaryti sudėtingą paiešką, šios paieškos gali būti išsaugojamos ir kartojamos reguliariai & tenkina \\ \hline
 	14) Paieškos sąsaja padėta, naudotojams įprastoje vietoje (viršuje dešinėje) & tenkina \\ \hline
 	15) Paieškos laukas ir jo kontrolės aiškiai pavadintos & tenkina \\ \hline
-	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją & ne \\ \hline
+	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją & ne (\ref{img:PaieškosPrototipas} pav.) \\ \hline
 	17) Paieškos sritis aiškiai parašyta paieškos rezultatų puslapyje ir naudotojai gali ją susiaurinti & tenkina \\ \hline
 	18) Paieškos rezultatų puslapis atvaizduoja naudingą meta informaciją (informacija apie informaciją), kaip dokumento dydis, dokumento sukūrimo data ir failo tipas & tenkina \\ \hline
 	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų & ne \\ \hline
-	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) & ne \\ \hline
+	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) & ne (\ref{img:PaieškosPrototipas}.5 pav.) \\ \hline
 \end{tabular}
 \label{PaieškosLentelėPrad}
 \end{center}
 \pagebreak
 
 
-\captionof{table}{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimas pradiniam puslapiui}
-\begin{longtable}{ |p{13,5cm}|p{2cm}| } 
+\captionof{table}{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimas}
+\begin{longtable}{ |p{13cm}|p{2,5cm}| } 
  \hline
 	Gairė & Ar tenkina? \\ \hline
 	1) Yra patogus ir akivaizdus būdas judėti tarp susijusių puslapių ir skyrių ir yra lengva grįžti į pagrindinį puslapį & tenkina \\ \hline
 	2) Informacija, kurios naudotojams dažnai prireikia yra lengvai pasiekiama iš daugumos puslapių & tenkina \\ \hline
 	3) Navigacijos pasirinkimai išrikiuoti pačiu racionaliausiu arba užduočiai orientuotu būdu & tenkina \\ \hline
-	4) Navigacijos sistema plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)  & ne \\ \hline
+	4) Navigacijos sistema plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)  & ne (\ref{img:NavigacijosPrototipas}.4, \ref{img:NavigacijosPrototipas}.6 pav.) \\ \hline
 	5) Paprasta, aiškaus modelio svetainės struktūra be nereikalingų lygių & ne \\ \hline
 	6) Pagrindiniai puslapio skyriai pasiekiami iš bet kurio puslapio ir nėra aklaviečių & tenkina \\ \hline
 	7) Navigacijos skirtukai patalpinti puslapio viršuje ir atrodo kaip paspaudžiamos versijos realaus pasaulio skirtukų & ne \\ \hline
@@ -121,7 +121,7 @@ Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Tra
 	14) Terminologija ir susitarimai (kaip nuorodų spalvos) (maždaug) atitinka bendrą interneto naudojimą & tenkina \\ \hline
 	15) Nuorodos atrodo taip pačiai skirtingose svetainės dalyse & tenkina \\ \hline
 	16) Navigacijos elementams ir hiperteksto nuorodoms naudojami terminai yra nedviprasmiški ir be žargono & tenkina \\ \hline
-	17) Matomi pasikeitimai, kai naudotojas užveda kursorių ant kažko paspaudžiamo (neįskaitant kursoriaus pasikeitimų) & ne \\ \hline
+	17) Matomi pasikeitimai, kai naudotojas užveda kursorių ant kažko paspaudžiamo (neįskaitant kursoriaus pasikeitimų) & ne (\ref{img:NavigacijosPrototipas}.4, \ref{img:NavigacijosPrototipas}.6 pav.) \\ \hline
 	18) Svarbus turinys pasiekiamas iš daugiau nei vienos nuorodos (naudotojams gali reikėt skirtingų nuorodų pavadinimų) & tenkina \\ \hline
 	19) Puslapiai skirti tik navigacijai (pavyzdžiui pradinis puslapis) gali būti peržiūrimi be slinkimo & tenkina \\ \hline
 	20) Svetainė leidžia naudotojui kontroliuoti sąveikos greitį ir eiliškumą & tenkina \\ \hline
@@ -133,9 +133,10 @@ Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Tra
 \end{longtable}
 \label{NavigacijosirIALentelėPrad}
 \addtocounter{table}{-1}
+\setlength{\parindent}{1cm}
 
 \begin{center}
-\captionof{table}{Euristinis vertinimas}
+\captionof{table}{Euristinis vertinimas, DS - defekto sunkumas}
 \begin{tabular}{ | p{4cm} | p{0,5cm} | p{11cm} | } 
  \hline
 	Euristika & DS & Komentaras \\ \hline
@@ -170,10 +171,10 @@ Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir infor
     \label{img:NavigacijosPrototipas}
 \end{figure}
 
-\section{Reikalavimai sistemai}
-Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibrėžti reikalavimus. Kandangi ketinama atnaujinti dalį egzistuojančios sistemos, reikia atsižvelgti į tai, ką ši sistema jau gali padaryti ir kokias papildomas funkcijas ji turėtų atlikti, kad būtų galima pataisyti kursiniame darbe rastus defektus\cite{Kursinis}. Reikalavimai remiasi gairėmis - lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}.
+\section{Reikalavimai informacijos architektūrai}
+Siekiant ištaisyti defektus informacijos architektūroje reikia turėti reikalavimus naujai sistemai, kurie išspręstų defektų priežastis. Tuo tikslu surašyti nefunkciniai reikalavimai paieškos sistemai ir navigacijos ir informacijos architektūrai. Reikalavimai remiasi gairėmis ir euristikomis, kurios buvo naudotos defektams surasti (lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}).
 
-\subsection{Nefunkciniai reikalavimai paieškos sistemai iš gairių}
+\subsection{Nefunkciniai reikalavimai paieškos sistemai}
 \begin{enumerate}
 	\item Paiešką turi būti galima atlikti su pelės paspaudimu arba klaviatūros klavišu
 	\item Paieškos rezultatų puslapis turi parodyti, ko buvo ieškota, turi būti lengva pakeisti ir pakartoti užklausą
@@ -197,7 +198,7 @@ Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibr�
 	\item Paieškos sistema turi leisti ieškoti panašių rezultatų („daugiau tokių“)
 \end{enumerate}
 
-\subsection{Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių}
+\subsection{Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai}
 \begin{enumerate}
 	\item Turi būti lengva judėti tarp susijusių puslapių ir skyrių ir lengva grįžti į pagrindinį puslapį
 	\item Informacija, kurios naudotojams dažnai prireikia turi būti lengvai pasiekiama iš daugumos puslapių
@@ -226,7 +227,7 @@ Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibr�
 	\item Meniu instrukcijos, nurodymai ir žinutės turi atsirasti toje pačioje vietoje visuose puslapiuose
 \end{enumerate}
 
-\subsection{Papildomi nefunkciniai reikalavimai iš euristikų}
+\subsection{Papildomi nefunkciniai reikalavimai}
 \begin{enumerate}
 	\item Kai paieška užtrunka ilgiau nei sekundę, turi būti parodomi ženklai, kad vyksta paieškos procesas
 	\item Internetinė registracija pas gydytoją turi būti pasiekiama iš bet kurio puslapio
@@ -239,38 +240,63 @@ Prieš kuriant sistemą reikia nustatyti, ką tiksliai ji turi daryti, ir apibr�
 
 \section{Projektavimas}
 \subsection{Puslapio architektūra}
-Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendimai. Kadangi šiame darbe gerinama navigacija ir paieška, kiti dabartinio puslapio elementai liks minimaliai pakeisti arba nepakeisti.
+Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendimai. Tinklapyje autorius rado tris pagrindinius puslapių tipus: pagrindinis puslapis, turinio puslapis ir paieškos puslapis. Pagrindinio puslapio dabartinis meniu yra nestandartinio pavidalo ir gali klaidinti naudotojus, todėl vietoj jo palikta vieta populiariems puslapiams ir kairėje įdėtas standartinis meniu. Turinio ir paieškos puslapių elementų dabartinis išdėstymas autoriui atrodo logiškas ir jo keisti nebūtina. Elementų išdėstymo schemos kiekvienam puslapio tipui pavaizduoti \ref{img:PagrindinisArch}, \ref{img:TurinysArch} ir \ref{img:PaieškaArch} paveiksluose, schemos sudarytos pagal puslapius pavaizuotus \ref{img:PagrindinisPuslapis}, \ref{img:TurinysPuslapis} ir \ref{img:PaieškaPuslapis} paveiksluose. Pagrindinio puslapio centre esantis elementas su slankiojančiais pranešimais pavadintas fasadu. Paieška yra naudotojams įprastoje vietoje (1.1.14 reikalavimas). Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}. Navigacija visuose kituose puslapiuose kairėje pusėje, tai gerai matoma vieta \cite{AttentionLeft} ir neužima brangios vietos viršuje.
 
-Tinklapyje autorius mato tris pagrindinius puslapių tipus: pagrindinis puslapis, turinio puslapis ir paieškos puslapis. Šių puslapių elementų dabartinis išdėstymas autoriui atrodo logiškas ir netrukdo surasti informaciją. Paieška yra naudotojams įprastoje vietoje (1.1.14 reikalavimas). Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}. Navigacija visuose kituose puslapiuose kairėje pusėje, tai gerai matoma vieta \cite{AttentionLeft}, sutaupoma vertikalios vietos ir leidžia naudotojui matyti, kur jis randasi.
-
-\begin{figure}[H]
+%Pareguliuoti paveikslu dydi
+\begin{figure}[htb]
     \centering
     \includegraphics[scale=0.25]{img/PuslapioArchPagrindinis}
     \caption{Pagrindinio puslapio išdėstymas}
     \label{img:PagrindinisArch}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[htb]
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{img/PuslapioArchTurinys}
   \captionof{figure}{Turinio puslapio išdėstymas}
-  \label{fig:test1}
+  \label{img:TurinysArch}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{img/PuslapioArchPaieška}
   \captionof{figure}{Paieškos puslapio išdėstymas}
-  \label{fig:test2}
+  \label{img:PaieškaArch}
 \end{minipage}
 \end{figure}
 
 \subsection{Navigacijos meniu}
+Tiriant navigacijos ir informacijos architektūros panaudojamumą buvo rasta, kad navigacija per daug gili (\ref{NavigacijosirIALentelėPrad}.4 defektas), yra pernelyg sudėtinga (\ref{NavigacijosirIALentelėPrad}.5 defektas) ir kategorijų pavadinimai neapibūdina informacijos viduje (\ref{NavigacijosirIALentelėPrad}.12 defektas), nes į kategoriją sudėta per daug elementų. Siekiant patenkinti reikalavimus (1.2.4, 1.2.5 ir 1.2.12) reikėjo pataisyti navigacijos skyrių išdėstymą.
 
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.8]{img/NavigacijosMeniuDabartinis}
+    \caption{Dabartinio navigacijos meniu diagrama}
+    \label{img:NavigacijosMeniuDabartinis}
+\end{figure}
+
+Dabartinės sistemos navigacijos meniu pavaizduotas diagramoje (\ref{img:NavigacijosMeniuDabartinis} paveikslas). Šio meniu pirmame lygyje tik trys skyriai, taigi iš šio lygio nedaug galima sužinoti apie tinklapio turinį. Į skyrių „Apie mus“ sudėti 15 skyrių, o 4 iš jų rodo į trečią lygį, iš viso „Apie mus“ skyrius turi 46 vaikinius skyrius, daug daugiau nei bet kuris kitas skyrius. Vienas iš vaikinių skyrių yra nuoroda į paiešką, autoriaus nuomone tai yra perteklinis skyrius, kurio galima atsisakyti, nes paieška matoma visuose puslapiuose. Po pakeitimų gautas navigacijos meniu pavaizduotas \ref{img:NavigacijosMeniuPakeistas} paveiksle.
+
+Atlikti pakeitimai navigacijos meniu:
+\begin{enumerate}
+	\item Panaikintas trečias lygis perkeliant visus trečio lygio skyrius ir jų tėvinį skyrių vienu lygiu aukštyn
+	\item Nauji pirmo lygio skyriai surūšiuoti pagal jų svarbą naudotojai (autoriaus nuomone)
+	\item Panaikintas skyrius nurodantis į paiešką
+	\item Panaikintas skyriaus „Patalpų nuoma“ duplikatas
+	\item Skyriaus „Pacientams“ vaikiniai skyriai apkeisti vietomis su skyriaus „Aktuali informacija“ vaikiniais skyriais
+	\item Panaikintas „Apie mus“ skyriaus identiško pavadinimo vaikinis skyrius, kad suvienodinti veikseną tarp skyrių
+\end{enumerate}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.8]{img/NavigacijosMeniuPakeistas}
+    \caption{Pakeisto navigacijos meniu diagrama}
+    \label{img:NavigacijosMeniuPakeistas}
+\end{figure}
 
 \subsection{Sistemos architektūra}
-Prieš kuriant internetinį tinklapį reikia apgalvoti, kokia bus sistemos archtektūra. Tai nulemia įgyvendinimo sudėtingumas, populiarūs sprendimai ir naudotojų poreikiai.
+Prieš kuriant tinklapio sistemą reikia apgalvoti, iš kokių dalių ir kaip ji susideda. Tai nuspręsta atsižvelgus į įgyvendinimo sudėtingumą, populiarius sprendimus ir naudotojų poreikius.
 
 Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
 
@@ -311,6 +337,12 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
 %santrumpos.
 
 \appendix  % Priedai
+% Prieduose gali būti pateikiama pagalbinė, ypač darbo autoriaus savarankiškai
+% parengta, medžiaga. Savarankiški priedai gali būti pateikiami ir
+% kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
+% su priedais susiejamas nuorodomis.
+
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.65]{img/Pagrindinis}
@@ -329,10 +361,7 @@ Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos
     \caption{Paieškos puslapis}
     \label{img:PaieškaPuslapis}
 \end{figure}
-% Prieduose gali būti pateikiama pagalbinė, ypač darbo autoriaus savarankiškai
-% parengta, medžiaga. Savarankiški priedai gali būti pateikiami ir
-% kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
-% su priedais susiejamas nuorodomis.
+
 
 
 

@@ -1995,19 +1995,18 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografija.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">InternetasLt</bcf:citekey>
-    <bcf:citekey order="2">InternetUseByPublicSAEn</bcf:citekey>
-    <bcf:citekey order="3">InternetUseByPublicHKEn</bcf:citekey>
-    <bcf:citekey order="4">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="5">Kursinis</bcf:citekey>
+    <bcf:citekey order="1">Kursinis</bcf:citekey>
+    <bcf:citekey order="2">InternetasLt</bcf:citekey>
+    <bcf:citekey order="3">InternetUseByPublicSAEn</bcf:citekey>
+    <bcf:citekey order="4">InternetUseByPublicHKEn</bcf:citekey>
+    <bcf:citekey order="5">VulSkApieMusLt</bcf:citekey>
     <bcf:citekey order="6">Kursinis</bcf:citekey>
-    <bcf:citekey order="7">Kursinis</bcf:citekey>
-    <bcf:citekey order="8">Scrolling</bcf:citekey>
-    <bcf:citekey order="9">AttentionLeft</bcf:citekey>
-    <bcf:citekey order="10">MVCDefinition</bcf:citekey>
-    <bcf:citekey order="11">MVCSO3</bcf:citekey>
-    <bcf:citekey order="12">MVCSO1</bcf:citekey>
-    <bcf:citekey order="12">MVCSO2</bcf:citekey>
+    <bcf:citekey order="7">Scrolling</bcf:citekey>
+    <bcf:citekey order="8">AttentionLeft</bcf:citekey>
+    <bcf:citekey order="9">MVCDefinition</bcf:citekey>
+    <bcf:citekey order="10">MVCSO3</bcf:citekey>
+    <bcf:citekey order="11">MVCSO1</bcf:citekey>
+    <bcf:citekey order="11">MVCSO2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

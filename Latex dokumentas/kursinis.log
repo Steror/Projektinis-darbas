@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  7 FEB 2020 00:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 FEB 2020 01:11
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1193,36 +1193,46 @@ Package caption Warning: \captionsetup{type*=...} or \captionof
 See the caption package documentation for explanation.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\TU/texgyretermes(0)/m/n/12 ne (2[].4, 2[].6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\TU/texgyretermes(0)/m/n/12 ne (2[].4, 2[].6
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 126
  []
 
 [5]
-Overfull \hbox (1.10963pt too wide) in paragraph at lines 141--141
+Overfull \hbox (1.10963pt too wide) in paragraph at lines 142--142
 []\TU/texgyretermes(0)/m/n/12 DS| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\TU/texgyretermes(0)/m/n/12 1) Sistemos būsenos
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 143--143
+Underfull \hbox (badness 5460) in paragraph at lines 144--144
 []\TU/texgyretermes(0)/m/n/12 2) Atitikimas realiam
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 147--147
+Underfull \hbox (badness 1540) in paragraph at lines 148--148
 []\TU/texgyretermes(0)/m/n/12 6) Atpažinimas geriau
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 151--151
+Underfull \hbox (badness 5924) in paragraph at lines 152--152
 []\TU/texgyretermes(0)/m/n/12 10) Parama ir doku-
  []
 
 
-Overfull \hbox (7.5472pt too wide) in paragraph at lines 139--154
+Overfull \hbox (7.5472pt too wide) in paragraph at lines 140--155
  [] 
  []
 
@@ -1230,14 +1240,14 @@ Overfull \hbox (7.5472pt too wide) in paragraph at lines 139--154
 File: img/PaieškosPrototipas.png Graphic file (type bmp)
 <img/PaieškosPrototipas.png>
 
-Overfull \hbox (6.32387pt too wide) in paragraph at lines 161--162
+Overfull \hbox (6.32387pt too wide) in paragraph at lines 162--163
  [][] 
  []
 
 File: img/NavigacijosPrototipas.png Graphic file (type bmp)
 <img/NavigacijosPrototipas.png>
 
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 168--169
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 169--170
  [][] 
  []
 
@@ -1254,13 +1264,25 @@ File: img/PuslapioArchPaieška.png Graphic file (type bmp)
 <img/PuslapioArchPaieška.png>
  [11
 
-] [12] [13
+]
+File: img/NavigacijosMeniuDabartinis.png Graphic file (type bmp)
+<img/NavigacijosMeniuDabartinis.png>
+ [12]
+File: img/NavigacijosMeniuPakeistas.png Graphic file (type bmp)
+<img/NavigacijosMeniuPakeistas.png>
+ [13]
+Underfull \hbox (badness 2134) in paragraph at lines 301--302
+[]\TU/texgyretermes(0)/m/n/12 Vienas iš populiariausių ir paprasčiausių archite
+ktūros modelių yra Modelis-Vaizdas-
+ []
 
-] [14
+[14] [15
+
+] [16
 
 ]
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1272,7 +1294,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1280,7 +1302,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1289,7 +1311,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-300.
+326.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1300,7 +1322,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1308,7 +1330,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1316,7 +1338,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 300
+Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 326
 .
 
 
@@ -1324,7 +1346,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 300--300
+Underfull \hbox (badness 3118) in paragraph at lines 326--326
 []\TU/texgyretermes(0)/m/n/12 Stack Exchange. Where we should not use mvc? 2015
 . \TU/texgyretermes(0)/m/sc/12 url\TU/texgyretermes(0)/m/n/12 : $[][][][][] [] 
 [] []
@@ -1332,7 +1354,7 @@ Underfull \hbox (badness 3118) in paragraph at lines 300--300
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-300.
+326.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1340,7 +1362,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-300.
+326.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1349,39 +1371,39 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 File: img/Pagrindinis.png Graphic file (type bmp)
 <img/Pagrindinis.png>
 
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 316--317
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 348--349
  [][] 
  []
 
 File: img/Turinys.png Graphic file (type bmp)
 <img/Turinys.png>
 
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 322--323
+Overfull \hbox (9.57384pt too wide) in paragraph at lines 354--355
  [][] 
  []
 
-[15
+[17
 
 ]
 File: img/Paieška.png Graphic file (type bmp)
 <img/Paieška.png>
 
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 328--329
+Overfull \hbox (9.57384pt too wide) in paragraph at lines 360--361
  [][] 
  []
 
-[16] [17] [18] (kursinis.aux)
+[18] [19] [20] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25795 strings out of 427748
- 505762 string characters out of 3146822
- 1011625 words of memory out of 3000000
- 29566 multiletter control sequences out of 15000+200000
+ 25805 strings out of 427748
+ 506123 string characters out of 3146822
+ 1011656 words of memory out of 3000000
+ 29574 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,12n,96p,1151b,7660s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,12n,96p,1306b,7662s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (18 pages).
+Output written on kursinis.pdf (20 pages).

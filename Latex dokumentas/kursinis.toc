@@ -8,13 +8,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Sprendimo maketai}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Reikalavimai sistemai}{8}% 
+\contentsline {section}{\numberline {1.}Reikalavimai informacijos architektūrai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Nefunkciniai reikalavimai paieškos sistemai iš gairių}{8}% 
+\contentsline {subsection}{\numberline {1.1.}Nefunkciniai reikalavimai paieškos sistemai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai iš gairių}{8}% 
+\contentsline {subsection}{\numberline {1.2.}Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Papildomi nefunkciniai reikalavimai iš euristikų}{9}% 
+\contentsline {subsection}{\numberline {1.3.}Papildomi nefunkciniai reikalavimai}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Projektavimas}{11}% 
 \defcounter {refsection}{0}\relax 
@@ -22,26 +22,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.}Navigacijos meniu}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Sistemos architektūra}{12}% 
+\contentsline {subsection}{\numberline {2.3.}Sistemos architektūra}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Sistemą realizuojančios technologijos}{13}% 
+\contentsline {section}{\numberline {3.}Sistemą realizuojančios technologijos}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Technologijos duomenų bazės valdymui}{13}% 
+\contentsline {subsection}{\numberline {3.1.}Technologijos duomenų bazės valdymui}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Technologijos puslapių kūrimui}{13}% 
+\contentsline {subsection}{\numberline {3.2.}Technologijos puslapių kūrimui}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Technologijos valdikliams įgyvendinti}{13}% 
+\contentsline {subsection}{\numberline {3.3.}Technologijos valdikliams įgyvendinti}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{14}% 
+\contentsline {section}{Rezultatai ir išvados}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{15}% 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{17}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{15}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{17}% 
