@@ -49,7 +49,7 @@
 
 
 \sectionnonum{Įvadas}
-Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe surasti reikalavimai sistemai kylantys iš naudotų poreikių ir panaudojamumo analizės, architektūriniai sprendimai ir technologijos atitinkančios reikalavimus. Šis darbas yra autoriaus kursinio darbo tesinys \cite{Kursinis}.
+Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
 
 Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
 
@@ -63,11 +63,10 @@ Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti reikalavimus sistemai
 	\item Suprojektuoti tinklapį
-	\item Palyginti ir pasirinkti technologijas reikalingas tinklapio įgyvendinimui
 \end{enumerate}
 
 \sectionnonum{Panaudojamumo analizės rezultatai}
-Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Travis gaires ir Jakob Nielsen euristikas\cite{Kursinis}. Prie defektų parašyti skaičiai nurodo kuris maketas (pav.) ir kuri maketo dalis (d.) juos taiso.
+Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas\cite{Kursinis} pagal David Travis gaires\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn} ir Jakob Nielsen euristikas\cite{NielsenHeuristicsEn}. Prie defektų parašyti skaičiai nurodo kuris maketas (pav.) ir kuri maketo dalis (d.) juos taiso.
 
 \begin{center}
 \captionof{table}{Paieškos panaudojamumo gairių vertinimas pradiniam puslapiui}
@@ -170,19 +169,19 @@ Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir infor
     \label{img:NavigacijosPrototipas}
 \end{figure}
 
-\section{Reikalavimų analizė}
-Siekiant ištaisyti defektus informacijos architektūroje reikia apibrėžti reikalavimus, kurie išspręstų defektų priežastis. Tuo tikslu surašyti funkciniai ir nefunkciniai reikalavimai paieškos sistemai ir navigacijos ir informacijos architektūrai. Reikalavimai remiasi naudotojų poreikiais, gairėmis ir euristikomis, kurios buvo naudotos defektams surasti (lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}).
+\section{Reikalavimai ir projektavimo gairės}
+Siekiant ištaisyti defektus informacijos architektūroje ir paieškos sistemoje reikia apibrėžti reikalavimus, kurie išspręstų defektų priežastis. Tuo tikslu surašyti funkciniai ir nefunkciniai reikalavimai paieškos sistemai ir projektavimo gairės navigacijos ir informacijos architektūrai. Reikalavimai remiasi naudotojų poreikiais, gairėmis ir euristikomis, kurios buvo naudotos defektams surasti (lentelės \ref{PaieškosLentelėPrad}, \ref{NavigacijosirIALentelėPrad} ir \ref{EuristikųLentelėPrad}).
 
 \subsection{Funkciniai reikalavimai paieškos sistemai}
 \begin{enumerate}
-	\item Pagrindinė paieška turi būti sudaryta tik iš vieno įvedimo lauko ir mygtuko, operuojama pele arba klaviatūra
-	\item Paieškos rezultatų puslapis turi parodyti, atliktos užklausos įvestį ir nustatymus, jie turi būti užrašyti puslapio adrese
-	\item Paieškos rezultatai turi turėti puslapio pavadinimą ir ištrauką teksto, kuri atitinką užklausą
+	\item Paieškos rezultatų puslapis turi parodyti, atliktos užklausos įvestį ir paieškos nustatymus (frazės tikslumas, rikiavimas, filtravimas, kiek puslapių rodoma)
+	\item Paieškos rezultatai turi turėti puslapio pavadinimą ir paryškintą teksto ištrauką, kuri atitinką užklausą
 	\item Paieškos rezultatai turi būti reitinguojami pagal atitikimą užklausai
 	\item Paieškos rezultatų puslapis turi parodyti, kiek rezultatų gražinta, ir turi leisti nustatyti kiek rezultatų parodyti per puslapį
 	\item Paieškos rezultatų puslapis turi leisti nustatyti kaip tiksliai rezultatai turi atitikti užklausos įvestį
-	\item Paieškos rezultatų puslapis turi leisti rūšiuoti rezultatus pagal populiarumą, datą, abėcėlinę tvarką ir kategoriją
+	\item Paieškos rezultatų puslapis turi leisti rikiuoti rezultatus pagal populiarumą, datą, abėcėlinę tvarką ir kategoriją
 	\item Paieškos rezultatų puslapis turi leisti filtruoti pagal kategoriją
+	\item Paieškos sistema turi leisti išsaugoti paieškos nustatymus
 	\item Paieškos sistema turi automatiškai patikrinti rašybą, ieškoti daugiaskaitinių formų ir sinonimų
 	\item Jei paieška negražina rezultatų, turi būti pasiūlomi pakeitimai užklausai pagerinti
 	\item Įvedus tuščią užklausą atsidaro paieškos rezultatų puslapis be rezultatų
@@ -197,13 +196,14 @@ Siekiant ištaisyti defektus informacijos architektūroje reikia apibrėžti rei
 
 \subsection{Nefunkciniai reikalavimai paieškos sistemai}
 \begin{enumerate}
+	\item Pagrindinė paieška turi būti sudaryta tik iš vieno įvedimo lauko ir mygtuko, operuojama pele arba klaviatūra
 	\item Paieškos laukas turi leisti įvesti bent 64 simbolių ilgio užklausą
 	\item Paieškos laukas turi būti viršuje dešinėje
 \end{enumerate}
 
-\subsection{Funkciniai reikalavimai navigacijos ir informacijos architektūrai}
+\subsection{Gairės navigacijos ir informacijos architektūrai}
 \begin{enumerate}
-	\item Turi būti navigacijos sistema leidžianti pasiekti visus puslapius
+	\item Navigacijos sistema turi leisti pasiekti visus puslapius
 	\item Navigacija turi leisti peržiūrėti visus jos elementus neatidarant kito puslapio
 	\item Internetinė registracija pas gydytoją (nuoroda į sergu.lt) turi būti pasiekiama iš bet kurio puslapio
 	\item Turi būti tinklapio žemėlapis, kuriame matyti tinklapio turinio apžvalga
@@ -211,10 +211,6 @@ Siekiant ištaisyti defektus informacijos architektūroje reikia apibrėžti rei
 	\item Turi būti režimas neįgaliesiems, leidžiantis padidinti teksto šriftą, pakeisti puslapio spalvas prastai matantiems
 	\item Visuose puslapiuose, išskyrus pagrindinį, turi būti rodomas nukeliautas kelias per paryškintus navigacijos meniu skyrius ir nuorodas į tėvinius skyrius
 	\item Turi būti matomi spalvos arba formos pasikeitimai, kai naudotojas užveda kursorių and kažko paspaudžiamo (ne tik kursoriaus pasikeitimai)
-\end{enumerate}
-
-\subsection{Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai}
-\begin{enumerate}
 	\item Nuoroda į pagrindinį puslapį turi būti puslapio viršuje
 	\item Nuolatiniai puslapiai sudėti į navigacijos meniu, nuoroda registracijai pas gydytoją internetu puslapio viršuje
 	\item Navigacijos skyriai išrikiuoti pagal naudojimo dažnį, bet taip kad svarbūs skyriai išliktų netoli viršaus
@@ -232,21 +228,44 @@ Siekiant ištaisyti defektus informacijos architektūroje reikia apibrėžti rei
 	\item Kai puslapis sukuria naujus langus, jie turi būti nedideli ir lengvai uždaromi
 \end{enumerate}
 
-\subsection{Papildomas nefunkcinis reikalavimas}
+\subsection{Papildoma sistemos projektavimo gairė}
 Autorius pastebėjo, kad sistema lėtai atidarinėja puslapius ir atlieka paieškas, šie veiksmai užtrunka arti 3 sekundžių. Šis sistemos bruožas labai gadina naudotojo patirtį ir turėtų būti sumažintas iki 1 sekundės ar mažiau tam, kad sistema nevargintų naudotojo.
 
 
 \section{Projektavimas}
 \subsection{Puslapio architektūra}
-Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendimai. Tinklapyje autorius rado tris pagrindinius puslapių tipus: pagrindinis puslapis, turinio puslapis ir paieškos puslapis. Pagrindinio puslapio dabartinis meniu yra nestandartinio pavidalo ir gali klaidinti naudotojus, todėl vietoj jo palikta vieta populiariems puslapiams ir kairėje įdėtas standartinis meniu. Turinio ir paieškos puslapių elementų dabartinis išdėstymas autoriui atrodo logiškas ir jo keisti nebūtina. Elementų išdėstymo schemos kiekvienam puslapio tipui pavaizduoti \ref{img:PagrindinisArch}, \ref{img:TurinysArch} ir \ref{img:PaieškaArch} paveiksluose, schemos sudarytos pagal puslapius pavaizuotus \ref{img:PagrindinisPuslapis}, \ref{img:TurinysPuslapis} ir \ref{img:PaieškaPuslapis} paveiksluose. Pagrindinio puslapio centre esantis elementas su slankiojančiais pranešimais pavadintas fasadu. Paieška yra naudotojams įprastoje vietoje (1.1.14 reikalavimas). Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}. Navigacija visuose kituose puslapiuose kairėje pusėje, tai gerai matoma vieta \cite{AttentionLeft} ir neužima brangios vietos viršuje.
+Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendimai. Tinklapyje autorius rado tris pagrindinius puslapių tipus: pagrindinis puslapis, turinio puslapis ir paieškos puslapis (\ref{img:PagrindinisPuslapis}, \ref{img:TurinysPuslapis} ir \ref{img:PaieškaPuslapis} pav.). Pagrindinio puslapio centre esantis elementas su slankiojančiais pranešimais pavadintas fasadu.
 
-%Pareguliuoti paveikslu dydi
+Paieškos laukas yra viršuje dešinėje, tai atitinka 1.2.3 reikalavimą. Pagrindinio puslapio dabartinis meniu (\ref{img:PuslapioArchPagrindinisDabartinis} pav.) yra nestandartinio pavidalo ir kitoje vietoje nei visuose kituose puslapiuose, tai gali klaidinti naudotojus. Vietoje to būtų galima įdėti vertikalų meniu, kuris yra kituose puslapiuose, arba navigaciją perdaryti viršuje į horizontalųjį meniu. Šie du sprendimai yra dažniausiai pasitaikančios meniu formos ir yra daug argumentų kada reikėtų rinktis vieną arba kitą, vienintelis aiškus sutarimas yra, kad sprendimas priklauso nuo konteksto. Vienas „naudotojo patirties“ (angliškai „user interface“, toliau „UI“) ekspertas rašo, kad vertikali navigacija geriau tinka, kai visi skyriai panašiai dažnai naudojami\cite{TopVsLeftNav}. Kadangi žmonės skenuoja informaciją iš kairės į dešinę, horizontalaus meniu pirmieji skyriai labiau akcentuojami, negu tolimesni. Skenavimas iš viršaus į apačią netaip stipriai akcentuoja viršutinius skyrius ir dėl to vertikalaus meniu skyriai išlieka panašiai pastebimi. Vertikalų meniu žmonės gali greičiau peržiūrėti\cite{TopVsLeftNav}. Kitas šio eksperto pastebėjimas, kad vertikalų meniu lengviau plėsti\cite{TopVsLeftNav}. Tai galima lengvai paaiškinti, visada galima slinkti puslapį į apačią, bet slinkimas į šonus yra nepageidaujamas. Dar viena UI ekspertė turi labai panašų požiūrį į šių sprendimų privalumus ir trūkumus\cite{TopVsLeftNav2}. Vienas jos šaltinių „Patternfly“ rašo, kad vertikali navigacija tapo populeresnė, kai naudotojai pradėjo naudoti plačiaekranius monitorius ir tapo galima naudoti daugiau vertikalios vietos\cite{LeftNav}. Vertikalus meniu leidžia kiekvienam skyriui suteikti daugiau vietos ir netgi pridėti paveiksliuką (reikalavimas 1.3.12) neapgriozdinant meniu, kas leidžia pagerinti skyrių atpažinimą. Galiausiai, vertikalų meniu lengviau perkelti ant mobilaus ekrano, nes jį galima integruoti beveik be pakeitimų.
+
 \begin{figure}[htb]
     \centering
-    \includegraphics[scale=0.25]{img/PuslapioArchPagrindinis}
-    \caption{Pagrindinio puslapio išdėstymas}
-    \label{img:PagrindinisArch}
+    \includegraphics[scale=0.25]{img/PuslapioArchPagrindinisDabartinis}
+    \caption{Pagrindinio puslapio dabartinis išdėstymas}
+    \label{img:PuslapioArchPagrindinisDabartinis}
 \end{figure}
+
+%Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}
+
+%Elementų išdėstymo schemos kiekvienam puslapio tipui pavaizduoti \ref{img:PuslapioArchPagrindinis}, \ref{img:TurinysArch} ir \ref{img:PaieškaArch} paveiksluose.
+
+\begin{figure}[htb]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{img/PuslapioArchPagrindinis}
+  \captionof{figure}{Pagrindinio puslapio išdėstymas A}
+  \label{img:PuslapioArchPagrindinis}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{img/PuslapioArchPagrindinisHorizontalus}
+  \captionof{figure}{Pagrindinio puslapio išdėstymas B}
+  \label{img:PuslapioArchPagrindinisHorizontalus}
+\end{minipage}
+\end{figure}
+
+Autoriaus nuomone, šio tinklapio lankytojai be registracijos (tam jau yra numatyta vieta puslapyje) gali vienodai ieškoti informacijos įvairiuose skyriuose: ligoninės adreso, naujienų, pacientų priėmimo tvarkos ir kitų. Šiuo atveju vertikali navigacija labiau tinka, nes ji neturi didelės įtakos skyrių pastebimumui ir vartotojas gali lengvai atsirinkti ko jam reikia. Dėl visų išvardintų vertikalios navigacijos privalumų autorius mano, kad tinklapio pagrindiniam puslapiui geriausiai tiktų \ref{img:PuslapioArchPagrindinis} pav. architektūra.
 
 \begin{figure}[htb]
 \centering
@@ -264,8 +283,10 @@ Puslapio architektūra apibūdinta kaip puslapio elementų išdėstymo sprendima
 \end{minipage}
 \end{figure}
 
+Kituose puslapiuose yra standartinis išdėstymas. Navigacija kairėje kaip ir pagrindiniame puslapyje, tai palengvina naudotojui atsiminti ir priprasti prie navigacijos. Kitiems puslapio elementams nėra specifinių reikalavimų, čia nebuvo rasta defektų, taigi galima jų nekeisti.
+
 \subsection{Navigacijos meniu}
-Tiriant navigacijos ir informacijos architektūros panaudojamumą buvo rasta, kad navigacija per daug gili (\ref{NavigacijosirIALentelėPrad}.4 defektas), yra pernelyg sudėtinga (\ref{NavigacijosirIALentelėPrad}.5 defektas) ir kategorijų pavadinimai neapibūdina informacijos viduje (\ref{NavigacijosirIALentelėPrad}.12 defektas), nes į kategoriją sudėta per daug elementų. Siekiant patenkinti reikalavimus (1.2.4, 1.2.5 ir 1.2.12) reikėjo pataisyti navigacijos skyrių išdėstymą.
+Tiriant navigacijos ir informacijos architektūros panaudojamumą buvo rasta, kad navigacija per daug gili (\ref{NavigacijosirIALentelėPrad}.4 defektas), yra pernelyg sudėtinga (\ref{NavigacijosirIALentelėPrad}.5 defektas) ir kategorijų pavadinimai neapibūdina informacijos viduje (\ref{NavigacijosirIALentelėPrad}.12 defektas), nes į kategoriją sudėta per daug elementų. Siekiant patenkinti projektavimo gaires (1.3.13, 1.3.18) reikėjo pataisyti navigacijos skyrių išdėstymą.
 
 \begin{figure}[htb]
     \centering
@@ -274,45 +295,48 @@ Tiriant navigacijos ir informacijos architektūros panaudojamumą buvo rasta, ka
     \label{img:NavigacijosMeniuDabartinis}
 \end{figure}
 
+\pagebreak
 Dabartinės sistemos navigacijos meniu pavaizduotas diagramoje (\ref{img:NavigacijosMeniuDabartinis} paveikslas). Šio meniu pirmame lygyje tik trys skyriai, taigi iš šio lygio nedaug galima sužinoti apie tinklapio turinį. Į skyrių „Apie mus“ sudėti 15 skyrių, o 4 iš jų rodo į trečią lygį, iš viso „Apie mus“ skyrius turi 46 vaikinius skyrius, daug daugiau nei bet kuris kitas skyrius. Vienas iš vaikinių skyrių yra nuoroda į paiešką, autoriaus nuomone tai yra perteklinis skyrius, kurio galima atsisakyti, nes paieška matoma visuose puslapiuose. Po pakeitimų gautas navigacijos meniu pavaizduotas \ref{img:NavigacijosMeniuPakeistas} paveiksle.
 
 Atlikti pakeitimai navigacijos meniu:
 \begin{enumerate}
 	\item Panaikintas trečias lygis perkeliant visus trečio lygio skyrius ir jų tėvinį skyrių vienu lygiu aukštyn
-	\item Nauji pirmo lygio skyriai surūšiuoti pagal jų svarbą naudotojai (autoriaus nuomone)
+	\item Nauji pirmo lygio skyriai surūšiuoti pagal jų svarbą naudotojui
 	\item Panaikintas skyrius nurodantis į paiešką
 	\item Panaikintas skyriaus „Patalpų nuoma“ duplikatas
-	\item Skyriaus „Pacientams“ vaikiniai skyriai apkeisti vietomis su skyriaus „Aktuali informacija“ vaikiniais skyriais
+	\item Skyriaus „Pacientams“ vaikiniai skyriai apkeisti vietomis su skyriaus „Aktuali informacija“ vaikiniais skyriais (paryškinti spalvomis)
 	\item Panaikintas „Apie mus“ skyriaus identiško pavadinimo vaikinis skyrius, kad suvienodinti veikseną tarp skyrių
 \end{enumerate}
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[scale=0.8]{img/NavigacijosMeniuPakeistas}
+    \includegraphics[scale=0.65]{img/NavigacijosMeniuPakeistas}
     \caption{Pakeisto navigacijos meniu diagrama}
     \label{img:NavigacijosMeniuPakeistas}
 \end{figure}
 
 \subsection{Sistemos architektūra}
-Prieš kuriant tinklapio sistemą reikia apgalvoti, iš kokių dalių ir kaip ji susideda. Tai nuspręsta atsižvelgus į įgyvendinimo sudėtingumą, populiarius sprendimus ir naudotojų poreikius.
+Norint sukurti alternatyvią tinklapio sistemą reikia apgalvoti, iš kokių dalių ir kaip ji susideda. Tai nuspręsta atsižvelgus į įgyvendinimo sudėtingumą, populiarius sprendimus ir naudotojų poreikius.
 
 Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
 
-Vienas svarbus punktas yra, kad sistema būtų responsyvi ir galėtų aptarnauti didelį kiekį vartotojų, tačiau tai universalus poreikis ir ši architektūra tam netrukdo. Kadangi kuriamas tinklapis neturi išskirtinių bruožų, dėl kurių reikėtų galvoti naujus sprendimus, galima naudoti MVC modelį\cite{MVCSO1, MVCSO2}. Galiausiai, autorius jau turi patirties su šiuo modeliu, taigi nereikės mokytis pagrindų.
+Vienas svarbus punktas yra, kad sistema būtų responsyvi (projektavimo gairė 1.4) ir galėtų aptarnauti didelį kiekį vartotojų, tačiau tai universalus poreikis ir ši architektūra tam netrukdo. Projektuojamas tinklapis turi gan standartinius reikalavimus ir nėra priežasties projektuoti unikalų sprendimą\cite{MVCSO1, MVCSO2}. Galiausiai, autorius jau turi patirties su šiuo modeliu, taigi bus sutaupyta šiek tiek laiko.
 
-\section{Sistemą realizuojančios technologijos}
-Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos bus naudojamos kiekvienam sluoksniui. Šiuo atveju sluoksnių elementai būtų duomenų bazė ir jos valdymas (Model), puslapiai (View) ir valdikliai (Controller).
+%\section{Sistemą realizuojančios technologijos}
+%Norint įgyvendinti sistemą MVC modeliu, reikia pasirinkti kokios technologijos bus naudojamos kiekvienam sluoksniui. Šiuo atveju sluoksnių elementai būtų duomenų bazė ir jos valdymas (Model), puslapiai (View) ir valdikliai (Controller).
 
-\subsection{Technologijos duomenų bazės valdymui}
+%\subsection{Technologijos duomenų bazės valdymui}
 
 
 
-\subsection{Technologijos puslapių kūrimui}
+%\subsection{Technologijos puslapių kūrimui}
 
-\subsection{Technologijos valdikliams įgyvendinti}
+%\subsection{Technologijos valdikliams įgyvendinti}
 
 \sectionnonum{Rezultatai ir išvados}
+Šiame darbe išskirti funkciniai ir nefunkciniai reikalavimai paieškai, navigacijos ir informacijos architektūros projektavimo gairės, parinkti tinklapio architektūros maketai, suprojektuotas navigacijos meniu ir aprašytas bendras sistemos serverio architektūros modelis.
 
+Formuluojant reikalavimus iš gairių autorius pastebėjo, kad nevisiems defektams prasminga rašyti reikalavimus, kadangi nevisi defektai yra aktualūs gerinamai sistemai, o kai kurie turi bendrą iškilimo priežastį. Atliekant vertikalios ir horizontalios navigacijos palyginimą išsiaiškinta, kad vertikali geriau tinka, kai meniu labai platus ir yra naudojamas kaip orientacinis elementas, ne tik informacijos paieškos elementas. Taip pat paaiškėjo, kad horizontalų meniu gerai naudoti, kai kažkurie skyriai daug dažniau naudojami, ir jį naudojant galima užimti mažiau vietos navigacijai. Projektuojant navigacijos meniu autorius pastebėjo, kad net sutalpinus daug skyrių į meniu, informacija gali būti lengvai surandama, jeigu viskas tvarkingai surūšiuota.
 
 %Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
 %rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos

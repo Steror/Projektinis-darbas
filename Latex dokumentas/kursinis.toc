@@ -8,17 +8,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Sprendimo maketai}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Reikalavimų analizė}{8}% 
+\contentsline {section}{\numberline {1.}Reikalavimai ir projektavimo gairės}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.}Funkciniai reikalavimai paieškos sistemai}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.}Nefunkciniai reikalavimai paieškos sistemai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Funkciniai reikalavimai navigacijos ir informacijos architektūrai}{9}% 
+\contentsline {subsection}{\numberline {1.3.}Gairės navigacijos ir informacijos architektūrai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.}Nefunkciniai reikalavimai navigacijos ir informacijos architektūrai}{9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.}Papildomas nefunkcinis reikalavimas}{9}% 
+\contentsline {subsection}{\numberline {1.4.}Papildoma sistemos projektavimo gairė}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Projektavimas}{10}% 
 \defcounter {refsection}{0}\relax 
@@ -27,14 +25,6 @@
 \contentsline {subsection}{\numberline {2.2.}Navigacijos meniu}{11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.}Sistemos architektūra}{13}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Sistemą realizuojančios technologijos}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Technologijos duomenų bazės valdymui}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Technologijos puslapių kūrimui}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Technologijos valdikliams įgyvendinti}{14}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Rezultatai ir išvados}{15}% 
 \defcounter {refsection}{0}\relax 
@@ -48,6 +38,26 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{16}% 
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Trys puslapių tipai}{17}% 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Trys puslapių tipai}{18}% 

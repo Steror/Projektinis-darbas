@@ -2001,12 +2001,18 @@
     <bcf:citekey order="4">InternetUseByPublicHKEn</bcf:citekey>
     <bcf:citekey order="5">VulSkApieMusLt</bcf:citekey>
     <bcf:citekey order="6">Kursinis</bcf:citekey>
-    <bcf:citekey order="7">Scrolling</bcf:citekey>
-    <bcf:citekey order="8">AttentionLeft</bcf:citekey>
-    <bcf:citekey order="9">MVCDefinition</bcf:citekey>
-    <bcf:citekey order="10">MVCSO3</bcf:citekey>
-    <bcf:citekey order="11">MVCSO1</bcf:citekey>
-    <bcf:citekey order="11">MVCSO2</bcf:citekey>
+    <bcf:citekey order="7">SearchGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="8">NavigationAndIAGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="9">NielsenHeuristicsEn</bcf:citekey>
+    <bcf:citekey order="10">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="11">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="12">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="13">TopVsLeftNav2</bcf:citekey>
+    <bcf:citekey order="14">LeftNav</bcf:citekey>
+    <bcf:citekey order="15">MVCDefinition</bcf:citekey>
+    <bcf:citekey order="16">MVCSO3</bcf:citekey>
+    <bcf:citekey order="17">MVCSO1</bcf:citekey>
+    <bcf:citekey order="17">MVCSO2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

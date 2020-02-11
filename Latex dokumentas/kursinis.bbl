@@ -19,6 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{TopVsLeftNav}{online}{}
+      \name{author}{1}{}{%
+        {{hash=20f1aeb7819d7858684c898d1e98c1bb}{%
+           family={Anthony},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{fullhash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{bibnamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authorbibnamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authornamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authorfullhash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \field{labelalpha}{Ant10}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Top Navigation vs Left Navigation: Which Works Better?}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://uxmovement.com/navigation/top-navigation-vs-left-navigation-which-works-better/
+      \endverb
+      \verb{url}
+      \verb https://uxmovement.com/navigation/top-navigation-vs-left-navigation-which-works-better/
+      \endverb
+    \endentry
     \entry{MVCDefinition}{online}{}
       \name{author}{1}{}{%
         {{hash=e6827c4af51ef69f79e5dcfc1470febe}{%
@@ -117,64 +144,33 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
       \endverb
     \endentry
-    \entry{AttentionLeft}{article}{}
+    \entry{TopVsLeftNav2}{online}{}
       \name{author}{1}{}{%
-        {{hash=7b9cb11afa8249bc072a9770ef1ea426}{%
-           family={Fessenden},
-           familyi={F\bibinitperiod},
-           given={Therese},
-           giveni={T\bibinitperiod}}}%
+        {{hash=4a5f03cf9bbbcf004558096496570da8}{%
+           family={Ghinita},
+           familyi={G\bibinitperiod},
+           given={Ana-Maria},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{fullhash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{bibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authorbibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authornamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authorfullhash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \field{extraname}{1}
-      \field{labelalpha}{Fes17}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \strng{namehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{fullhash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{bibnamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authorbibnamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authornamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authorfullhash}{4a5f03cf9bbbcf004558096496570da8}
+      \field{labelalpha}{Ghi18}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{anglų}
-      \field{title}{Horizontal Attention Leans Left}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://www.nngroup.com/articles/horizontal-attention-leans-left/
-      \endverb
-      \verb{url}
-      \verb https://www.nngroup.com/articles/horizontal-attention-leans-left/
-      \endverb
-    \endentry
-    \entry{Scrolling}{article}{}
-      \name{author}{1}{}{%
-        {{hash=7b9cb11afa8249bc072a9770ef1ea426}{%
-           family={Fessenden},
-           familyi={F\bibinitperiod},
-           given={Therese},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{fullhash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{bibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authorbibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authornamehash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \strng{authorfullhash}{7b9cb11afa8249bc072a9770ef1ea426}
-      \field{extraname}{2}
-      \field{labelalpha}{Fes18}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{anglų}
-      \field{title}{Scrolling and Attention}
+      \field{langid}{english}
+      \field{title}{Vertical or Horizontal Navigation for your Dashboard?}
       \field{year}{2018}
       \verb{urlraw}
-      \verb https://www.nngroup.com/articles/scrolling-and-attention/
+      \verb https://blog.prototypr.io/vertical-or-horizontal-navigation-for-your-dashboard-3611ff8c1a57
       \endverb
       \verb{url}
-      \verb https://www.nngroup.com/articles/scrolling-and-attention/
+      \verb https://blog.prototypr.io/vertical-or-horizontal-navigation-for-your-dashboard-3611ff8c1a57
       \endverb
     \endentry
     \entry{Kursinis}{online}{}
@@ -240,6 +236,60 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S1386505611002644
+      \endverb
+    \endentry
+    \entry{NielsenHeuristicsEn}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{labelalpha}{Nie94}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI conference on Human Factors in Computing Systems}
+      \field{title}{Enhancing the explanatory power of usability heuristics}
+      \field{year}{1994}
+      \field{pages}{152\bibrangedash 158}
+      \range{pages}{7}
+    \endentry
+    \entry{LeftNav}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6bbdd76eb82ccde3ef04f58ada03651b}{%
+           family={Patternfly},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{fullhash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{bibnamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authorbibnamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authornamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authorfullhash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \field{labelalpha}{Pat}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Vertical Navigation}
+      \verb{urlraw}
+      \verb https://www.patternfly.org/v3/pattern-library/navigation/vertical-navigation/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.patternfly.org/v3/pattern-library/navigation/vertical-navigation/index.html
       \endverb
     \endentry
     \entry{MVCSO1}{online}{}
@@ -323,6 +373,68 @@
       \endverb
       \verb{url}
       \verb https://softwareengineering.stackexchange.com/questions/280383/where-we-should-not-use-mvc
+      \endverb
+    \endentry
+    \entry{SearchGuidelinesEn}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2f7aff51b256956b777c52b0f014af67}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{fullhash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{bibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorbibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authornamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorfullhash}{2f7aff51b256956b777c52b0f014af67}
+      \field{extraname}{1}
+      \field{labelalpha}{Tra16}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{20 search usability guidelines}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.userfocus.co.uk/resources/searchchecklist.html
+      \endverb
+      \verb{url}
+      \verb https://www.userfocus.co.uk/resources/searchchecklist.html
+      \endverb
+    \endentry
+    \entry{NavigationAndIAGuidelinesEn}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2f7aff51b256956b777c52b0f014af67}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{fullhash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{bibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorbibnamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authornamehash}{2f7aff51b256956b777c52b0f014af67}
+      \strng{authorfullhash}{2f7aff51b256956b777c52b0f014af67}
+      \field{extraname}{2}
+      \field{labelalpha}{Tra16}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{29 navigation and IA usability guidelines}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.userfocus.co.uk/resources/navchecklist.html
+      \endverb
+      \verb{url}
+      \verb https://www.userfocus.co.uk/resources/navchecklist.html
       \endverb
     \endentry
     \entry{VulSkApieMusLt}{online}{}
