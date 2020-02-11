@@ -49,7 +49,7 @@
 
 
 \sectionnonum{Įvadas}
-Šiame darbe tyrinėjami praktiniai sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
+Šiame darbe tyrinėjami sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
 
 Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
 
@@ -57,7 +57,7 @@ Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosči
 
 VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
 
-Šio \textbf{darbo tikslas} yra apibrėžti reikalavimus, suprojektuoti galutinę sistemą ir pasirinkti technologijas tinkančias sistemos kūrimui. 
+Šio \textbf{darbo tikslas} yra apibrėžti reikalavimus ir projektavimo gaires sistemai, suprojektuoti puslapių architektūrą, navigacijos meniu ir pasirinkti serverio architektūros modelį. 
 
 Uždaviniai:
 \begin{enumerate}
@@ -201,7 +201,7 @@ Siekiant ištaisyti defektus informacijos architektūroje ir paieškos sistemoje
 	\item Paieškos laukas turi būti viršuje dešinėje
 \end{enumerate}
 
-\subsection{Gairės navigacijos ir informacijos architektūrai}
+\subsection{Projektavimo gairės navigacijos ir informacijos architektūrai}
 \begin{enumerate}
 	\item Navigacijos sistema turi leisti pasiekti visus puslapius
 	\item Navigacija turi leisti peržiūrėti visus jos elementus neatidarant kito puslapio
@@ -315,7 +315,7 @@ Atlikti pakeitimai navigacijos meniu:
     \label{img:NavigacijosMeniuPakeistas}
 \end{figure}
 
-\subsection{Sistemos architektūra}
+\subsection{Serverio architektūra}
 Norint sukurti alternatyvią tinklapio sistemą reikia apgalvoti, iš kokių dalių ir kaip ji susideda. Tai nuspręsta atsižvelgus į įgyvendinimo sudėtingumą, populiarius sprendimus ir naudotojų poreikius.
 
 Vienas iš populiariausių ir paprasčiausių architektūros modelių yra Modelis-Vaizdas-Valdiklis (Model-View-Controller, toliau MVC)\cite{MVCDefinition}. Šis modelis sudarytas iš trijų sluoksnių: duomenų sluoksnio, vaizdo sluoksnio ir valdiklių sluoksnio. Duomenų sluoksnis atsakingas už duomenis reikalingus programos veikimui, daugeliu atveju duomenų bazę, kurioje gali būti saugomi puslapių tekstai\cite{MVCSO3}. Vaizdo sluoksnis pateikia vartotojui vaizdą, pavyzdžiui puslapį ir mygtukus. Valdiklių sluoksnis skirtas komunikacijai tarp vaizdo ir modelio sluoksnių, jis priima vartotojo įvestį ir pateikia rezultatus iš duomenų bazės. Visa tai leidžia atlikti tinklapiui reikalingas funkcijas kaip duomenų, saugojimas, puslapių rodymas, paieškų atlikimas, filtravimas ir žinučių ar komentarų siuntimas. Naudojant MVC modelį kodas atskiriamas pagal sluoksnius, tai leidžia izoliuoti komponentus ir dėl to kodą lengviau plėsti, kyla mažiau klaidų bei jas lengviau pataisyti. Šios savybės palaiko objektinio programavimo metodiką ir padeda turėti aiškiai suprantamą projekto struktūrą.
