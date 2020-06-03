@@ -1,0 +1,81 @@
+APIE MUS
+    Apie mus    //Pradinis lygio puslapis
+    Istorija
+    Struktūra ir kontaktai
+    Karjera
+    Veikla
+        Įstatai
+        Licencija
+        Ataskaitos
+        Darbo užmokestis
+        Viešieji pirkimai
+        Ikiprekybiniai pirkimai
+        Patalpų nuoma   //DUPLIKATAS #1
+        Informacinės sistemos
+        Intelektinė nuosavybė
+        Projektai    //Pradinis lygio puslapis
+        Šveicarijos Projektai
+        Projektai su Baltarusija
+        E-sveikata
+        Komisijos ir darbo grupės
+        Patalpų nuoma   //DUPLIKATAS #1
+        Organizacijos
+        Darbuotojų elgesio kodeksas
+        Vaistų ir MPP reklama
+
+    Duomenų saugumas    //Pradinis lygio puslapis
+        Informacija apie asmens duomenų tvarkymą
+        Duomenų subjektų teisių įgyvendinimo aprašas
+        Asmens duomenų gavėjai
+        Asmens duomenų teikėjai
+        Duomenų apsaugos pareigūnai
+        Vaizdo stebėjimas
+
+    Korupcijos prevencija    //Pradinis lygio puslapis
+        Informacija apie korupciją ir jos prevenciją
+        Korupcijos prevencijos programos ir teisės aktai
+        Įstaigos vadovo kreipimasis
+        Korupcijos rizikos analizė
+        Informacija apie draustumą PSD
+        Atsakomybė už korupcinio pobūdžio veiksmus
+        Parama
+        Pasitikėjimo linija
+
+    Rekvizitai
+    Naujienos    //Pradinis lygio puslapis
+        Archyvas 2014 m
+        Archyvas 2013 m
+        Archyvas 2012 m
+
+    Renginiai
+    Padėkos
+    Parašykite mums
+    Paieška svetainėje  //Perteklinė nuoroda
+    Galerija
+    Video reportažai
+
+PACIENTAMS
+    Kaip mus rasti    //Pradinis lygio puslapis
+    Centrai ir skyriai
+    Aktuali informacija
+        Guldymo į ligoninę tvarka    //Pradinis lygio puslapis
+        Konsultavimo tvarka
+        Vidaus tvarkos taisyklės
+        Atliekami tyrimai
+        Informacija apie anesteziją
+        Informacija apie pagalbinį apvaisinimą
+        Informacija apie skausmo gydymą
+        Ambulatorinės kardiologijos skyrius
+        Paslaugos jūsų patogumui
+        Koplyčia
+        Nuorodos
+        Parkavimas Santariškių medicinos miestelyje
+
+    Pacientų apklausų anketos
+
+e.PASLAUGOS    //Pradinis lygio puslapis
+    Išankstinė registracija //Nuoroda į išorinę svetainę
+    Internetinė paciento kortelė    //Nuoroda į išorinę svetainę
+    Telemedicinos paslaugos //Nuoroda į išorinę svetainę
+    ESP (Medikams)  //Nuoroda į išorinę svetainę
+    Paštas darbuotojams //Nuoroda į išorinę svetainę
